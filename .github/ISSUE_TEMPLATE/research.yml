@@ -1,0 +1,23 @@
+name: 公司问题、研究线索与内容纠错
+description: 告诉我们你想弄明白的生意，或补充一条有出处的信息。
+title: "[研究] "
+body:
+  - type: input
+    id: company
+    attributes:
+      label: 公司或行业
+      placeholder: 公司名、证券代码，或你正在学习的行业
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 你想弄明白什么，或哪一处需要更正？
+      description: 尽量写具体问题；纠错时请附现有页面链接。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 公开资料线索
+      description: 可填写报告链接、报告期、页码。请勿提交账号、私人信息或无权分享的数据。

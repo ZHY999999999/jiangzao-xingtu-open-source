@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-16",
   "statusValues": [
     "pending",
     "in_progress",
@@ -8,6 +8,22 @@
     "dropped"
   ],
   "items": [
+    {
+      "id": "docs-01-open-reading",
+      "area": "docs",
+      "title": "找回169家公司研究并建立355家公司阅读与17个行业入口",
+      "status": "done",
+      "acceptance": [
+        "355家公司去重、169份原稿追溯",
+        "保留日期、来源、限制及新增笔记层次",
+        "公开文件隐私和链接检查",
+        "GitHub桌面与移动版阅读检查"
+      ],
+      "pr": null,
+      "version": "1.2.26",
+      "updateLog": "20261016-code-01",
+      "notes": "仅更新仓库文档，不改变网站源码、内容批准清单或线上服务状态。"
+    },
     {
       "id": "content-01-l1-overview",
       "area": "content",
@@ -283,5 +299,6 @@
       "updateLog": "20261002-code-05",
       "notes": "运维脚本，不发布网站；详细服务器回执留在完整项目管理证据，不进入代码仓库。"
     }
-  ]
+  ],
+  "currentScope": "市场观察器与行业知识库；公开阅读与源码留存。旧网站任务只作为历史记录，不自动恢复生产。"
 }

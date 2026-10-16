@@ -1,5 +1,5 @@
 {
-  "asOf": "20261006-142913",
+  "asOf": "20261016-141452",
   "sourceVersion": "1.2.26",
   "publicVersionLastRecorded": "1.2.22",
   "publicReleaseLastRecorded": "20261004T164201405207Z-6d880be57325",
@@ -14,11 +14,11 @@
     "valued": 5561
   },
   "companyIncrementalUpdates": "blocked_pending_acceptance",
-  "repositoryRole": "public_open_source_code_with_separate_runtime_data",
+  "repositoryRole": "market_observer_and_industry_knowledge_base_with_source_snapshot",
   "uploadIsDeployment": false,
   "rawEvidenceIncluded": false,
   "privateResearchIncluded": false,
-  "lastUpdateLog": "20261006-code-02",
+  "lastUpdateLog": "20261016-code-01",
   "acceptedSevenQuestionContentCount": 14,
   "localWholeSiteSevenQuestionCount": 14,
   "publishedSevenQuestionCount": 14,
@@ -27,5 +27,16 @@
   "localWholeSiteOverviewCount": 55,
   "publishedOverviewCount": 55,
   "serviceStatus": "offline",
-  "repositoryPresentationUpdatedAt": "2026-10-16"
+  "repositoryPresentationUpdatedAt": "2026-10-16",
+  "positioning": "市场观察器与行业知识库",
+  "openReading": {
+    "asOf": "2026-10-16",
+    "uniqueCompanies": 355,
+    "existingEditedCompanies": 186,
+    "supplementaryResearchNotes": 169,
+    "industryNavigationGroups": 17,
+    "entry": "docs/companies/README.md",
+    "supplementaryNotesAreWebsiteAccepted": false
+  },
+  "legacyWebsiteCountersNote": "以下网站验收和发行字段是历史快照，不表示当前在线状态；当前在线服务已停止。"
 }

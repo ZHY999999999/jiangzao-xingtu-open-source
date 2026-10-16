@@ -1,0 +1,17 @@
+{
+  "id": "20261016-code-01",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-16T14:14:52+08:00",
+  "summary": "新增355家公司公开阅读页与17个行业入口，整理169份历史研究笔记，定位为市场观察器与行业知识库；仅文档发布",
+  "version": "1.2.26",
+  "branch": "docs/open-research-library-20261016",
+  "commit": "7bf9580",
+  "pr": null,
+  "validated": "static",
+  "validatedAt": "2026-10-16T14:14:01+08:00",
+  "validatedCommit": "7bf9580",
+  "rollback": null,
+  "next": "继续从公开阅读目录反馈补充；旧在线服务保持停止，补充笔记不视为网站内容验收通过",
+  "data": {}
+}
