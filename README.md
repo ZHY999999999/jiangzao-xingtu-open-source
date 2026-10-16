@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="docs/media/cover-market-observer.png" alt="降噪星图 · 市场观察器与行业知识库" width="100%">
+  <img src="docs/media/cover-knowledge-library.png" alt="降噪星图 · 市场观察器与行业知识库 · 持续更新知识库内容" width="100%">
 </p>
 
 <p align="center">
   <strong>市场观察器与行业知识库</strong><br>
-  观察市场关系，理解公司生意，让行业知识有处可查。
+  观察市场关系，理解公司生意，持续更新知识库内容。
 </p>
 
 <p align="center">
-  <a href="docs/companies/README.md"><img src="docs/media/button-read.svg" alt="开始阅读355家公司" height="36"></a>
+  <a href="docs/companies/README.md"><img src="docs/media/button-library.svg" alt="开始阅读知识库" height="36"></a>
   <a href="docs/industries/README.md"><img src="docs/media/button-industry.svg" alt="按行业探索" height="36"></a>
   <a href="https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml"><img src="docs/media/button-research.svg" alt="提问与补充线索" height="36"></a>
 </p>
 
-<p align="center"><sub>355 家可读公司 · 17 个行业分类 · 14 家七问 · 公开资料出处 · 无需安装</sub></p>
+<p align="center"><sub>持续更新 · 公司生意笔记 · 行业阅读入口 · 公开资料出处 · 无需安装</sub></p>
 
 ## 先选一个你想弄明白的问题
 
@@ -33,7 +33,7 @@
 
 信息很多，理解常常是散的。我们希望把**市场关系、公司生意、行业知识**连起来：从一个产品或行业出发，知道谁在参与、怎样交付、收入来自哪里、有哪些变化值得继续观察。
 
-当前内容以 A 股公司为起点。仓库已有 **186 家编辑内容**，本次找回并整理 **169 家历史研究笔记**，合计 **355 家**；七问和完整拆解是其中的深入阅读层次。新增笔记保留独立标记，不代表所有公司已经完成同样深度的研究。[查看整理记录](docs/research-notes.md)
+知识库以 A 股公司为起点，持续补充公司生意、经营变化与行业阅读线索。生意概览、七问和完整拆解提供不同深度的阅读；补充研究笔记保留独立标记、资料日期与出处。内容会逐步积累，也会根据新披露和有依据的反馈修订。[查看整理记录](docs/research-notes.md)
 
 ## 看一遍星图的阅读方式
 
@@ -60,7 +60,7 @@
 - **想参与整理：** [阅读贡献说明](CONTRIBUTING.md)，从修正一条有出处的内容开始。
 - **想关注后续作品：** [关注作者的 GitHub](https://github.com/ZHY999999999)。
 
-无需留下手机号、微信或其他私人信息。更新按实际整理进度进行，不承诺实时覆盖或固定频率。
+无需留下手机号、微信或其他私人信息。内容按实际整理进度持续补充，资料日期随篇保留。
 
 <details>
 <summary>源码、运行与许可</summary>
