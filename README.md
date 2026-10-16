@@ -15,6 +15,18 @@
 
 <p align="center"><sub>持续更新 · 公司生意笔记 · 行业阅读入口 · 公开资料出处 · 无需安装</sub></p>
 
+## 市场星图 · 动态演示
+
+从行业之间的关系，看进一家家公司的生意。
+
+<a href="docs/media/market-starfield-live.mp4"><img src="docs/media/market-starfield-live.gif" alt="市场星图真实运行录屏：星图自转与连线流动，切换球面和平面，展开半导体公司关系" width="100%"></a>
+
+**星图自转 → 球面与平面切换 → 展开行业内的公司关系**
+
+[查看高清录屏](docs/media/market-starfield-live.mp4)　·　[从行业知识库开始阅读 →](docs/industries/README.md)
+
+<sub>2026-10-16 本地运行历史版本的真实录屏。图中数据为历史快照；原在线服务已停止，当前知识库内容在本仓库持续更新。</sub>
+
 ## 先选一个你想弄明白的问题
 
 | 你可能好奇 | 从这里读起 |
