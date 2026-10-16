@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/media/cover.png" alt="降噪星图 · 市场观察器与行业知识库" width="100%">
+  <img src="docs/media/cover-market-observer.png" alt="降噪星图 · 市场观察器与行业知识库" width="100%">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 <p align="center">
   <a href="docs/companies/README.md"><img src="docs/media/button-read.svg" alt="开始阅读355家公司" height="36"></a>
   <a href="docs/industries/README.md"><img src="docs/media/button-industry.svg" alt="按行业探索" height="36"></a>
-  <a href="https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml"><img src="docs/media/button-feedback.svg" alt="提问与补充线索" height="36"></a>
+  <a href="https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml"><img src="docs/media/button-research.svg" alt="提问与补充线索" height="36"></a>
 </p>
 
 <p align="center"><sub>355 家可读公司 · 17 个行业分类 · 14 家七问 · 公开资料出处 · 无需安装</sub></p>

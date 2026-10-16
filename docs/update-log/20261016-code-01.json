@@ -9,9 +9,10 @@
   "commit": "7bf9580",
   "pr": null,
   "validated": "static",
-  "validatedAt": "2026-10-16T14:14:01+08:00",
-  "validatedCommit": "7bf9580",
+  "validatedAt": "2026-10-16T14:18:48+08:00",
+  "validatedCommit": "6403d17",
   "rollback": null,
-  "next": "继续从公开阅读目录反馈补充；旧在线服务保持停止，补充笔记不视为网站内容验收通过",
-  "data": {}
+  "next": "355家公司阅读已发布；新定位封面采用独立资源路径避免旧图缓存。旧在线服务保持停止，补充笔记不视为网站内容验收通过",
+  "data": {},
+  "amendedAt": "2026-10-16T14:18:49+08:00"
 }
