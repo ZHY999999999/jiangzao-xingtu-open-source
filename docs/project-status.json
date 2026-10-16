@@ -14,7 +14,7 @@
     "valued": 5561
   },
   "companyIncrementalUpdates": "blocked_pending_acceptance",
-  "repositoryRole": "private_code_snapshot_with_separate_local_runtime_bundle",
+  "repositoryRole": "public_open_source_code_with_separate_runtime_data",
   "uploadIsDeployment": false,
   "rawEvidenceIncluded": false,
   "privateResearchIncluded": false,
@@ -25,5 +25,7 @@
   "legacyReadOnlyBenchmarkCount": 1,
   "acceptedOverviewContentAndCandidateCount": 55,
   "localWholeSiteOverviewCount": 55,
-  "publishedOverviewCount": 55
+  "publishedOverviewCount": 55,
+  "serviceStatus": "offline",
+  "repositoryPresentationUpdatedAt": "2026-10-16"
 }

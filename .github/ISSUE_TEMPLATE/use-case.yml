@@ -1,0 +1,35 @@
+name: 使用场景与改进建议
+description: 说说你希望星图帮你解决什么问题。
+title: "[场景] "
+body:
+  - type: markdown
+    attributes:
+      value: "感谢参与。内容将公开显示，请勿填写电话、微信、账号或私密资料。原站已下线，完整运行数据包不公开提供。"
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你在什么场景下需要它？
+      placeholder: 例如：学习某个行业，整理上下游公司关系。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 目前最难解决的问题是什么？
+      placeholder: 具体说说现在怎么做、卡在哪里、希望看到什么结果。
+    validations:
+      required: true
+  - type: dropdown
+    id: interest
+    attributes:
+      label: 你更关注哪个方向？
+      options:
+        - 公司与行业学习
+        - 图谱与界面实现
+        - 知识库二次开发
+        - 数据结构与内容组织
+        - 其他改进
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 补充建议（可选）

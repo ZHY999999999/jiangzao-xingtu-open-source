@@ -1,72 +1,93 @@
-> 2026-10-16：星图停止云端网站运营，本仓库保留为开源项目。学习产品入口：https://study.thinkpair.cn/ 。
-> 代码采用 MIT 许可证；第三方数据、字体、图片及引用内容遵循各自权利与许可，不因本仓库开源获得额外授权。
-> 仓库不包含完整运行数据，现有构建需要 README 所述恢复包；目前不承诺开箱即用、持续数据更新或问题响应时效。
+<p align="center">
+  <img src="docs/media/cover.png" alt="降噪星图：从市场关系，走进公司的生意。A股公司与行业知识阅读工具。" width="100%">
+</p>
 
-# 降噪星图
+<p align="center">
+  <strong>把公司做什么、靠什么赚钱、和谁有关，放回同一张图里。</strong><br>
+  面向 A 股公司学习、行业研究与知识可视化的开源项目。
+</p>
 
-面向 A 股市场的行业与概念星图、公司搜索、公司经营解读和财务阅读工具。
+<p align="center">
+  <a href="#先看一遍产品"><img src="docs/media/button-tour.svg" alt="观看产品演示" height="36"></a>
+  <a href="https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=use-case.yml"><img src="docs/media/button-feedback.svg" alt="聊聊你的使用场景" height="36"></a>
+  <a href="https://github.com/ZHY999999999"><img src="docs/media/button-follow.svg" alt="关注作者的后续项目" height="36"></a>
+</p>
 
-这是**开源代码仓库**，保存当前网站源码、公开品牌资源和已采用的公司解读。正式站为 https://atlas.thinkpair.cn/ 。
+<p align="center"><sub>MIT 代码开源 · React / TypeScript / Three.js · 中文优先</sub></p>
 
-## 五分钟接手
+> **先说明当前状态：** 原在线服务已经停止。本仓库开放源码与已收录的编辑内容，**不含完整运行数据，clone 后不能直接构建完整网站**。下方为已验收版本的真实界面展示，截图记录于 2026 年 10 月，并非实时行情。
 
-先读 `AGENTS.md` 和 `docs/project-status.json`。源码在 `app/`；版本变更在 `app/release-history.json`。
-日常更新（市值快照、公司增量、板块证据、代码）按 `docs/update-framework.md` 的六步走：开发项与下一步在 `docs/roadmap.json`，每次更新的记录在 `docs/update-log/`，接手先在 `app/` 跑 `python scripts/update_gate.py <类型> preflight`。
-此仓库从当前代码建立干净历史，没有继承完整项目库中的私人研究、机器路径配置和旧提交。
-1.2.22 / 61be615b4be4 已于 2026-10-05 随发行 20261004T164201405207Z-6d880be57325 完成上线及独立公网验收。第一层生意概览本批新增 40 家，累计内容及候选验收 55 家、整站装入 55 家、线上发布 55 家；保留 14 家七问解读及 1 份工业富联只读标杆，按公司去重可读 56 家。新增内容采用机械全检、非作者代表与风险抽检及代表页面实看，公开批准快照保留各成员实际抽检范围。冻结范围 5568 家的第一层建设仍待继续；1.2.21 / 7fc5b709c841 保留为本次回退基线。任务边界见[第一层任务书](docs/tasks/l1-company-overview.md)，状态见 `docs/project-status.json`。原完整项目库保持只读，未执行回传；旧库与旧候选不能覆盖本版源码。
+## 先看一遍产品
 
-## 恢复并运行
+<img src="docs/media/product-tour.gif" alt="真实界面轮播：市场星图首页、公司目录、公司生意概览、展开原文出处" width="100%">
 
-需要 Node.js 22、Python 3.11+，以及项目所有者单独保管的 `runtime-data.zip`。
-代码与数据分开保存，**只有 clone 不能构建完整网站**。先恢复与当前清单匹配的数据：
+*真实界面截图制作的循环导览；用于展示产品结构，不是实时操作录像。*
 
-1.2.19统一源码的内容批准与公开重建边界见[统一内容构建说明](docs/unified-content-build.md)。普通公开副本恢复后，显式设置 `ATLAS_APPROVAL_MODE=snapshot` 才能重建已记录内容；该输出标为未发布，不能用于正式发行。真实生产构建必须使用当前批准链。
+| 从哪里开始 | 你能看什么 |
+| --- | --- |
+| **01 · 看关系** | 从市场星图认识行业、概念与公司之间的联系。 |
+| **02 · 找公司** | 通过公司目录与搜索，进入具体公司的知识档案。 |
+| **03 · 读生意** | 先看卖什么、谁买单、靠什么赚钱，再展开业务与经营变化。 |
+| **04 · 回到出处** | 在已收录页面展开报告原文与引用线索，继续核对判断。 |
 
-```powershell
-python scripts/restore_runtime.py --archive "你的备份目录/runtime-data.zip"
-cd app
-npm ci
-$env:ATLAS_APPROVAL_MODE='snapshot'
-npm run build
-npm run preview -- --host 127.0.0.1 --port 5181
-```
+<details>
+<summary><strong>展开查看高清界面</strong></summary>
 
-开发使用 `npm run dev -- --host 127.0.0.1 --port 5178`。这些命令默认不采集、不更新、不部署。
-首次运行请确保没有设置 `MARKET_UPDATE_ON_START=1` 或 `COMPANY_UPDATE_ON_START=1`。
+**市场星图入口**
 
-恢复包包含构建需要的图谱资料、公司目录、一个当前公司快照和市值快照；每个文件的路径和 SHA256 见 `docs/runtime-data-manifest.json`。
-它不含原始年报、历史采集缓存、私人笔记和完整数据重建证据。这些仍在原完整项目库中，需另行备份。
+![市场星图首页](docs/media/home.png)
 
-## 代码与资料边界
+**公司目录**
 
-- Git：页面、样式、脚本、依赖清单、字体许可、公开图片/讲解音频及已审核编辑内容。
-- 不进 Git：全量结构化资料、公告原件、采集缓存、私人投资研究、凭据、账户文件和服务器配置。
-- 原发行选择14份已验七问与1份既有工业富联标杆。第一层生意概览与七问解读分别批准，采用清单以 `app/content-selection.json` 为准；同一家公司可同时具备两层。公司数按代码去重，5,000 多家公司财务覆盖不代表全部解读完成。
-- 公司原文增量链仍待验收；保留 builder/updater 的原文覆盖保护，不运行旧链覆盖有效快照。
-- 生成静态发行包与公开部署是独立动作；上传 GitHub 不会更新正式网站。
+![公司目录](docs/media/companies.png)
 
-## 测试与发布
+**公司生意概览**
 
-恢复数据并安装依赖后：
+![公司生意概览](docs/media/company.png)
 
-```powershell
-cd app
-npx tsc --noEmit -p tsconfig.app.json
-python scripts/test_site_version.py
-python scripts/release_selftest.py
-$env:ATLAS_APPROVAL_MODE='snapshot'
-npm run build
-```
+**展开原文出处**
 
-部署脚本仅保留工具实现，不附带服务器地址或 SSH 凭据。
-使用时明确提供 `ATLAS_DEPLOY_SERVER`、`ATLAS_DEPLOY_IDENTITY`，现有服务器端脚本要求 root 权限并校验 SSH host key。
-未配置环境、未取得当前发布授权或没有候选验收与回滚证据时，不执行 Stage/Activate。
-本仓库未配置 GitHub Actions 自动采集、自动部署或公开 Pages。
+![原文出处](docs/media/evidence.png)
 
-## 后续同步
+</details>
 
-1.2.19起使用本仓库 `scripts/export_source.py` 生成和验证公开源码候选；旧原工程的prepare_github白名单没有覆盖新增内容线，不可用其结果覆盖本版。
-先核对候选与真实上线源码，再通过新分支和PR对GitHub做普通增量提交；不要强推，不要向本地克隆来源镜像推送，不要推送原完整项目库的所有分支和历史。
-`docs/source-export-manifest.json` 记录公开源码白名单、源文件哈希与导出文件哈希。当前 `scripts/export_source.py` 按清单逐字节复制，所有 `transforms` 均为空；部署环境变量约束已在源码中，不在上传副本中临时转换服务器或密钥默认值。导出仅核对与复制文件，不替代状态确认、内容批准或发布验收。
+## 为什么做星图
 
-统一候选使用 `python scripts/export_source.py --verify` 核对完整公开源码白名单；包含TypeScript构建脚本、content-selection、生意概览、七问正文和公开批准快照。`--write-manifest`只能在审查本地源码变更后刷新清单；它不授权内容或发布，也不导出私人批准库。
+看公司时，信息往往散在行情页、财报与行业资料里。我们想把这些入口连起来：**先看懂一门生意，再沿着关系和出处继续研究。**
+
+星图保留了市场关系可视化、公司知识阅读和原文展开的实现，适合学习产品设计、研究信息结构，或作为你自己的知识工具的代码参考。
+
+- **想学习公司与行业：** 看演示，了解“关系 → 生意 → 出处”的阅读方式。
+- **想做知识产品或二次开发：** 查看 React / TypeScript / Three.js 的页面与图谱实现。
+- **想把星图用于自己的场景：** 留下你要解决的问题，一起讨论可行的实现。
+
+## 选一个入口，继续探索
+
+| 我现在想做什么 | 从这里开始 |
+| --- | --- |
+| 看源码、了解架构 | [进入 app/](app/) · [开发与运行说明](docs/development-guide.md) |
+| 提一个使用场景或改进建议 | [填写场景反馈](https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=use-case.yml) |
+| 报告问题、交流实现 | [查看 Issues](https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues) · [参与贡献](CONTRIBUTING.md) |
+| 关注后续作品 | [关注作者 GitHub](https://github.com/ZHY999999999)；觉得有用也欢迎 Star 收藏 |
+
+**我们更想听到具体问题。** 例如：“我在学一个行业，最难的是找到上下游关系”，或“我想把这套界面用在自己的行业知识库”。无需留下手机号、微信或其他私人信息。
+
+## 本地运行与内容边界
+
+完整构建需要 **Node.js 22、Python 3.11+ 与单独保存的运行数据包**。本仓库不提供该数据包的公开下载，也不承诺可以通过反馈索取。准备好有权使用、并与清单匹配的数据后，再按[开发与数据恢复说明](docs/development-guide.md)运行。
+
+不准备运行数据也可以先阅读：
+
+- [页面与组件源码](app/src/)
+- [已收录的公司生意概览](app/content/company-overview/)
+- [内容构建边界](docs/unified-content-build.md)
+
+当前源码版本为 **1.2.26**。目录覆盖、已收录的生意概览与深度解读是不同层次，不能把公司目录数量理解为所有公司均已完成研究。历史资料保留各自记录日期，不能当作今天的市场事实；项目不提供投资建议或收益承诺。
+
+## 许可与致谢
+
+自主代码采用 [MIT License](LICENSE)。第三方依赖、字体、图片、引用原文及数据遵循各自许可和权利；MIT 不为第三方材料提供额外授权。原私有项目历史、凭据与私人研究资料不在此公开仓库中。
+
+---
+
+<p align="center"><strong>从一个点出发，把理解连成图。</strong><br><sub>降噪星图 · 保持好奇，继续探索。</sub></p>
