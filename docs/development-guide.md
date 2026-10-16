@@ -7,14 +7,14 @@
 先读 `AGENTS.md` 和 `docs/project-status.json`。源码在 `app/`；版本变更在 `app/release-history.json`。
 日常更新（市值快照、公司增量、板块证据、代码）按 `docs/update-framework.md` 的六步走：开发项与下一步在 `docs/roadmap.json`，每次更新的记录在 `docs/update-log/`，接手先在 `app/` 跑 `python scripts/update_gate.py <类型> preflight`。
 此仓库从当前代码建立干净历史，没有继承完整项目库中的私人研究、机器路径配置和旧提交。
-1.2.22 / 61be615b4be4 已于 2026-10-05 随发行 20261004T164201405207Z-6d880be57325 完成上线及独立公网验收。第一层生意概览本批新增 40 家，累计内容及候选验收 55 家、整站装入 55 家、线上发布 55 家；保留 14 家七问解读及 1 份工业富联只读标杆，按公司去重可读 56 家。新增内容采用机械全检、非作者代表与风险抽检及代表页面实看，公开批准快照保留各成员实际抽检范围。冻结范围 5568 家的第一层建设仍待继续；1.2.21 / 7fc5b709c841 保留为本次回退基线。任务边界见[第一层任务书](docs/tasks/l1-company-overview.md)，状态见 `docs/project-status.json`。原完整项目库保持只读，未执行回传；旧库与旧候选不能覆盖本版源码。
+停服前最后记录的发行是 2026-10-06 的 1.2.26 / 6ec48bc9b5bc，历史验收包括 185 家概览、14 家七问和 1 份工业富联完整拆解（按公司去重为 186 家）。来源为[当日发行记录](update-log/20261006-code-02.json)，不能据此推断当前仍在线。旧[第一层任务书](tasks/l1-company-overview.md)仅作历史留档，不接续旧队列；当前范围见 `docs/project-status.json`。原完整项目库保持只读，旧库与旧候选不能覆盖本版源码。
 
 ## 恢复并运行
 
-需要 Node.js 22、Python 3.11+，以及项目所有者单独保管的 `runtime-data.zip`。
+需要 Node.js 22、Python 3.11+，以及有权使用且与清单匹配的 `runtime-data.zip`。本仓库不提供数据包下载，也不承诺由所有者发放。
 代码与数据分开保存，**只有 clone 不能构建完整网站**。先恢复与当前清单匹配的数据：
 
-1.2.19统一源码的内容批准与公开重建边界见[统一内容构建说明](docs/unified-content-build.md)。普通公开副本恢复后，显式设置 `ATLAS_APPROVAL_MODE=snapshot` 才能重建已记录内容；该输出标为未发布，不能用于正式发行。真实生产构建必须使用当前批准链。
+1.2.19统一源码的内容批准与公开重建边界见[统一内容构建说明](unified-content-build.md)。普通公开副本恢复后，显式设置 `ATLAS_APPROVAL_MODE=snapshot` 才能重建已记录内容；该输出标为未发布，不能用于正式发行。真实生产构建必须使用当前批准链。
 
 ```powershell
 python scripts/restore_runtime.py --archive "你的备份目录/runtime-data.zip"
@@ -63,4 +63,4 @@ npm run build
 先核对候选与真实上线源码，再通过新分支和PR对GitHub做普通增量提交；不要强推，不要向本地克隆来源镜像推送，不要推送原完整项目库的所有分支和历史。
 `docs/source-export-manifest.json` 记录公开源码白名单、源文件哈希与导出文件哈希。当前 `scripts/export_source.py` 按清单逐字节复制，所有 `transforms` 均为空；部署环境变量约束已在源码中，不在上传副本中临时转换服务器或密钥默认值。导出仅核对与复制文件，不替代状态确认、内容批准或发布验收。
 
-统一候选使用 `python scripts/export_source.py --verify` 核对完整公开源码白名单；包含TypeScript构建脚本、content-selection、生意概览、七问正文和公开批准快照。`--write-manifest`只能在审查本地源码变更后刷新清单；它不授权内容或发布，也不导出私人批准库。
+使用 `python scripts/export_source.py --verify` 核对公开文件清单；包含TypeScript构建脚本、content-selection、生意概览、七问正文、公开批准快照，以及根许可证、贡献说明和 `docs/media/` 中的展示图片、SVG、GIF与MP4。运行数据仍排除。`--write-manifest`只能在审查本地改动后刷新清单；它不授权内容或发布，也不导出私人批准库。更新记录会改变公开文件，须在记录完成后刷新并复核清单。

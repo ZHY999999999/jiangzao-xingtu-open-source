@@ -1,0 +1,17 @@
+{
+  "id": "20261016-code-03",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-16T15:14:30+08:00",
+  "summary": "全面复核公开阅读与动效，修复开发死链、旧生产授权和历史状态，补齐字体许可、导出范围及公司页展示用语；应用源码和已批准JSON不变",
+  "version": "1.2.26",
+  "branch": "docs/open-research-library-20261016",
+  "commit": "00cf25e",
+  "pr": null,
+  "validated": "static",
+  "validatedAt": "2026-10-16T15:13:16+08:00",
+  "validatedCommit": "00cf25e",
+  "rollback": null,
+  "next": "按实际进度持续整理知识库；文档更新后刷新并独立验证公开导出清单；旧网站任务不自动恢复",
+  "data": {}
+}

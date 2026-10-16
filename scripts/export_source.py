@@ -13,10 +13,11 @@ import sys
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'docs/source-export-manifest.json'
-ROOT_FILES = {'.gitattributes','.gitignore','AGENTS.md','README.md'}
+ROOT_FILES = {'.gitattributes','.gitignore','AGENTS.md','README.md','LICENSE','CONTRIBUTING.md'}
 APP_FILES = {'index.html','package.json','package-lock.json','release-history.json', 'vite.config.ts',
              'tsconfig.json','tsconfig.app.json','tsconfig.node.json','content-selection.json','content-approval-snapshot.json'}
 CODE_SUFFIX = {'.ts','.tsx','.js','.mjs','.py','.ps1','.css','.json','.md','.txt','.yml','.yaml'}
+DOC_MEDIA_SUFFIX = {'.png','.svg','.gif','.mp4'}
 
 
 def sha(raw): return hashlib.sha256(raw).hexdigest()
@@ -44,7 +45,8 @@ def inputs():
         for path in children(ROOT/folder):
             name = path.relative_to(ROOT).as_posix()
             if path == MANIFEST or name in runtime: continue
-            if path.suffix in CODE_SUFFIX or (folder == 'docs' and path.suffix == '.png'):
+            if (path.suffix in CODE_SUFFIX or (folder == 'docs' and path.suffix == '.png')
+                    or (name.startswith('docs/media/') and path.suffix in DOC_MEDIA_SUFFIX)):
                 files.append(path)
     for folder in ('company-editorial','company-seven-questions'):
         files += [p for p in children(ROOT/'app/content'/folder) if p.suffix == '.json']
@@ -77,7 +79,7 @@ def main():
     actual=inputs()
     value={'schemaVersion':1,'files':list(actual.values())}
     if args.write_manifest:
-        MANIFEST.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        MANIFEST.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     expected=json.loads(MANIFEST.read_bytes())
     if expected != value: raise ValueError('Public source export manifest is stale; review source changes before refreshing it')
     if args.output:

@@ -9,6 +9,23 @@
   ],
   "items": [
     {
+      "id": "docs-03-public-audit",
+      "area": "docs",
+      "title": "开源仓库全链路复核与接手说明纠偏",
+      "status": "done",
+      "acceptance": [
+        "目录、来源与内部链接完整",
+        "真实动效和公开阅读路径检查",
+        "停服边界与历史任务状态一致",
+        "公开导出包含许可和媒体且排除运行数据",
+        "来源与字体说明、展示用语修正"
+      ],
+      "pr": null,
+      "version": "1.2.26",
+      "updateLog": "20261016-code-03",
+      "notes": "公开文档和仓库导出工具维护；应用源码与已批准内容JSON不改，完整网站构建未重跑。"
+    },
+    {
       "id": "docs-02-market-motion",
       "area": "docs",
       "title": "GitHub首页展示真实市场星图动效",
@@ -44,7 +61,7 @@
       "id": "content-01-l1-overview",
       "area": "content",
       "title": "全公司第一层生意概览与全站叙述视角优化",
-      "status": "in_progress",
+      "status": "dropped",
       "owner": "local",
       "acceptance": [
         "冻结启动索引；已有七问不折算为第一层完成",
@@ -58,7 +75,10 @@
       "updateLog": "20261005-code-01",
       "task": "docs/tasks/l1-company-overview.md",
       "notes": "第一层本批新增 40 家，累计 55 家随 1.2.22 / 61be615b4be4 完成整站装入及同版公网验收；保留 14 家七问和 1 份工业富联只读标杆，按公司去重可读 56 家。新增内容采用机械全检、非作者代表与风险抽检、共享批次页面验收，公开批准快照保留实际抽检范围。全索引第一层仍待继续。 本批55家公司收口后交接；新对话核唯一生产权与运行环境，再按行业批量推进剩余L公司。",
-      "previousPr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/15"
+      "previousPr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/15",
+      "historicalStatus": "in_progress",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "prod-00-product-brief",
@@ -76,13 +96,13 @@
       "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/11",
       "version": null,
       "updateLog": "20261002-code-06",
-      "notes": "后续 roadmap 排序以这份简报为准；首页已公开承诺「客观信息免费，深度讲解逐步开放」。2026-10-02 审查 3 通过并收口；所有者四决均为 A：样板顺序沿现有样板补齐、度量隐私先会话内匿名聚合、收费周期保持未定、试用用固定公开完整样板。"
+      "notes": "历史结论（2026-10-02），已由2026-10-16停服与开源知识库定位替代；不再用于当前任务排序。原记录：后续 roadmap 排序以这份简报为准；首页已公开承诺「客观信息免费，深度讲解逐步开放」。2026-10-02 审查 3 通过并收口；所有者四决均为 A：样板顺序沿现有样板补齐、度量隐私先会话内匿名聚合、收费周期保持未定、试用用固定公开完整样板。"
     },
     {
       "id": "prod-01-data-licensing",
       "area": "product",
       "title": "数据许可核验：Tushare / 同花顺供给链 / 公告原文",
-      "status": "pending",
+      "status": "dropped",
       "owner": "所有者 + local",
       "acceptance": [
         "三类数据源（Tushare 标准许可、同花顺供给链、公告平台）各有书面结论与期限",
@@ -92,7 +112,10 @@
       "pr": null,
       "version": null,
       "updateLog": null,
-      "notes": "非代码任务；简报第 6 节是整个变现的硬门。审查 3 商业闭环排序第 1。"
+      "notes": "非代码任务；简报第 6 节是整个变现的硬门。审查 3 商业闭环排序第 1。",
+      "historicalStatus": "pending",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "ui-07-listen-read-conversion",
@@ -118,7 +141,7 @@
       "id": "prod-02-content-capacity-ledger",
       "area": "product",
       "title": "内容产能实测：第 3–5 家样板工时与成本账本",
-      "status": "pending",
+      "status": "dropped",
       "owner": "local + 所有者",
       "acceptance": [
         "补齐第 3–5 家样板时逐家记录工时、返修与语音单位成本",
@@ -127,13 +150,16 @@
       "pr": null,
       "version": null,
       "updateLog": null,
-      "notes": "所有者已选样板顺序 A：沿现有样板主题补齐。审查 3 排序第 3。"
+      "notes": "所有者已选样板顺序 A：沿现有样板主题补齐。审查 3 排序第 3。",
+      "historicalStatus": "pending",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "prod-03-minimal-metrics",
       "area": "product",
       "title": "最小度量：公司检索、试听完成率、复访",
-      "status": "pending",
+      "status": "dropped",
       "owner": "local",
       "acceptance": [
         "三项指标各有固定事件、分母与观察窗口",
@@ -142,13 +168,16 @@
       "pr": null,
       "version": null,
       "updateLog": null,
-      "notes": "所有者已选度量隐私 A：会话内匿名聚合；按审查 3，「7 日复访」在 A 下暂以「同会话内二次检索」替代，改选 B 再恢复。待设计师出任务书。审查 3 排序第 4。"
+      "notes": "所有者已选度量隐私 A：会话内匿名聚合；按审查 3，「7 日复访」在 A 下暂以「同会话内二次检索」替代，改选 B 再恢复。待设计师出任务书。审查 3 排序第 4。",
+      "historicalStatus": "pending",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "ui-08-cleanup-misc",
       "area": "ui",
       "title": "收尾杂项：调试读数、原生 select、aria-label、拼音搜索、atlas.js 迁 TS",
-      "status": "pending",
+      "status": "dropped",
       "owner": "local",
       "acceptance": [
         "侧栏调试读数移出用户界面",
@@ -158,7 +187,10 @@
       "pr": null,
       "version": null,
       "updateLog": null,
-      "notes": "低优先级。审查 3 排序第 5。"
+      "notes": "低优先级。审查 3 排序第 5。",
+      "historicalStatus": "pending",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "ui-01-design-tokens",
@@ -289,7 +321,7 @@
       "id": "data-01-company-increment-acceptance",
       "area": "data",
       "title": "公司原文增量链验收标准",
-      "status": "pending",
+      "status": "dropped",
       "acceptance": [
         "所有者写明验收条件后，project-status.json 的 companyIncrementalUpdates 才能从 blocked_pending_acceptance 改为 accepted",
         "验收前 check-company-updates.py 只产生候选，不 --publish，不解除 builder/updater 的原文覆盖保护"
@@ -297,7 +329,10 @@
       "pr": null,
       "version": null,
       "updateLog": null,
-      "notes": "由所有者在完整项目库中完成；这里只跟踪状态。"
+      "notes": "由所有者在完整项目库中完成；这里只跟踪状态。",
+      "historicalStatus": "pending",
+      "closedAt": "2026-10-16",
+      "closureReason": "原在线服务停止，旧网站任务不自动接续；保留原状态与说明供历史追溯。"
     },
     {
       "id": "ops-03-release-retention",

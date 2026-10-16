@@ -79,7 +79,7 @@
 
 网站源码快照为 **1.2.26**，使用 React / TypeScript / Three.js。[查看源码](app/) · [开发说明](docs/development-guide.md)。阅读 Markdown 无需安装；运行旧版完整网站另需有权使用的运行数据，本仓库不公开提供该数据包，clone 后不能直接构建完整网站。
 
-自主代码采用 [MIT License](LICENSE)。第三方依赖、字体、图片、引用原文及数据遵循各自许可和权利；MIT 不为第三方材料提供额外授权。原接口数据、采集缓存、私有项目历史及凭据不随本仓库发布。
+自主代码采用 [MIT License](LICENSE)。第三方依赖、字体、图片、引用原文及数据遵循各自许可和权利；MIT 不为第三方材料提供额外授权。[字体来源与许可](docs/third-party-fonts.md)。原接口数据、采集缓存、私有项目历史及凭据不随本仓库发布。
 
 </details>
 
