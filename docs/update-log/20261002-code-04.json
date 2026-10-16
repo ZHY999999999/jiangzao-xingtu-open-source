@@ -1,0 +1,18 @@
+{
+  "id": "20261002-code-04",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T09:47:46+08:00",
+  "summary": "星图深链接受裸板块代码：板块查找索引抽为 board-index.js，代码 / 名称 / 裸指数代码三种键都能命中，重名不默默选第一个；路由测试改用同一解析器并加裸码用例，新增无数据单元测试进门禁；v1.2.15",
+  "version": "1.2.15",
+  "branch": "cursor/board-route-bare-code-dd40",
+  "commit": "3b05e6a",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/10",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；或回到 v1.2.14（线上发行 20261001T200905663747Z-0bd0f3e6a87f）",
+  "next": "完整校验后随下一次发行上线；线上 v1.2.14 已通过 CDP 全链路与触摸手势验证",
+  "data": {},
+  "amendedAt": "2026-10-02T10:46:29+08:00",
+  "validatedAt": "2026-10-02T10:46:28+08:00",
+  "validatedCommit": "e6b32fd"
+}

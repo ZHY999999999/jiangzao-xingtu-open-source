@@ -1,0 +1,43 @@
+{
+  "id": "20261002-code-05",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T11:38:41+08:00",
+  "summary": "发行保留默认只读，保护完整LIVE与即时回滚；增加上传前和解包前容量与inode检查",
+  "version": "1.2.15",
+  "branch": "codex/ops-03-safe-retention",
+  "commit": "e71befe",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/12",
+  "validated": "full",
+  "validatedAt": "2026-10-02T11:46:13+08:00",
+  "validatedCommit": "1a0a357",
+  "rollback": "运维脚本可revert本PR；已清理历史发行不可因代码revert恢复，当前及即时回滚版本保留",
+  "next": "PR #12 待合并回传完整项目库；本次运维不发布网站 v1.2.15，服务器清理结果见私有运维验收记录",
+  "data": {
+    "companies": {
+      "snapshotId": "20260926-f6612ceba52c2cbc",
+      "asOf": "20260926",
+      "total": 5569
+    },
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "market": {
+      "tradeDate": "2026-09-30",
+      "snapshotId": "20260930-29c46fe803519650",
+      "coverage": {
+        "listed": 5572,
+        "missing": 11,
+        "valued": 5561
+      }
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "amendedAt": "2026-10-02T11:46:14+08:00"
+}

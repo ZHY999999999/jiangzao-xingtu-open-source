@@ -1,0 +1,16 @@
+{
+  "id": "20261001-code-05",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T23:15:42+08:00",
+  "summary": "ui-03 抽屉信息架构：展开个股星图 / 打开公司档案移到头部，数据说明折叠区块，龙头候选默认 3 张，关闭按钮 40px，边界文案收敛；v1.2.11",
+  "version": "1.2.11",
+  "branch": "cursor/drawer-information-architecture-dd40",
+  "commit": "a537cbd",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/5",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；或回到 v1.2.10（提交 bad78be）",
+  "next": "完整校验在完整项目库机器补跑；之后按 roadmap 做 ui-04 系统偏好与触摸",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "20261002-code-06",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T12:51:23+08:00",
+  "summary": "协作协议与产品简报落地；修复UI验收错误漏报、浏览器隔离和失败清理，保留Windows证据",
+  "version": "1.2.15",
+  "branch": "codex/pr11-local-completion",
+  "commit": "79d8a93",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/11",
+  "validated": "full",
+  "validatedAt": "2026-10-02T12:51:00+08:00",
+  "validatedCommit": "79d8a93",
+  "rollback": "仅协作文档和验收工具，可revert本PR；不涉及线上发行切换",
+  "next": "PR #11 按审查 3 收口：prod-00 done、roadmap 按商业闭环重排（prod-01 数据许可核验优先，会员与支付维持不做）、所有者四决全 A 已写入对应项备注；合并后下一项需所有者启动。本地 v1.2.15 工业富联七问 7/7 领先公网 v1.2.14 的 4/7，更完整经营解读尚未随发行上线，随下一次授权发行带出；源码 v1.2.15 未发行。",
+  "data": {
+    "companies": {
+      "snapshotId": "20260926-f6612ceba52c2cbc",
+      "asOf": "20260926",
+      "total": 5569
+    },
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "market": {
+      "tradeDate": "2026-09-30",
+      "snapshotId": "20260930-29c46fe803519650",
+      "coverage": {
+        "listed": 5572,
+        "missing": 11,
+        "valued": 5561
+      }
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "amendedAt": "2026-10-02T14:04:08+08:00"
+}

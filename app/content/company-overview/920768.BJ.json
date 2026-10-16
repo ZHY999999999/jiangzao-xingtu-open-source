@@ -1,0 +1,158 @@
+{
+  "answers": [
+    {
+      "claimIds": [
+        "920768-Q1-C001"
+      ],
+      "questionId": "Q1",
+      "text": "公司研发生产金属外观复合材料，主要是PCM、VCM等板材，用于家电等产品的外观部件，客户包括品牌制造商和代工厂。"
+    },
+    {
+      "claimIds": [
+        "920768-Q2-C001"
+      ],
+      "questionId": "Q2",
+      "text": "2025年营业收入约18.26亿元，其中PCM板约11.79亿元，占64.57%；VCM板约5.38亿元，占29.45%；其他约1.09亿元，占5.97%。"
+    }
+  ],
+  "asOf": "2026-04-15",
+  "businessModel": {
+    "flows": [
+      {
+        "buyer": {
+          "claimIds": [
+            "920768-Q3-C001"
+          ],
+          "text": "家电品牌制造商、代工厂及少量贸易商"
+        },
+        "id": "sheets",
+        "income": {
+          "claimIds": [
+            "920768-Q2-C001",
+            "920768-Q3-C001"
+          ],
+          "text": "取得板材等产品销售收入"
+        },
+        "work": {
+          "claimIds": [
+            "920768-Q1-C001",
+            "920768-Q3-C001"
+          ],
+          "text": "按规格生产金属外观复合板材并配送"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "claimIds": [
+          "920768-Q2-C001",
+          "920768-Q3-C001"
+        ],
+        "text": "PCM板和VCM板是两类材料，不能把它们的销售额当成下游家电整机收入。"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "citations": [
+        {
+          "excerpt": "金属外观复合材料的研发、生产、销售及应用拓展",
+          "pdfPage": 11,
+          "section": "业务、经营方式或收入构成（PDF页序11）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "包括PCM 产品、VCM 产品等",
+          "pdfPage": 11,
+          "section": "业务、经营方式或收入构成（PDF页序11）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司研发生产金属外观复合材料，主要是PCM、VCM等板材，用于家电等产品的外观部件，客户包括品牌制造商和代工厂。",
+      "claimType": "company_statement",
+      "id": "920768-Q1-C001",
+      "limitations": "产品及用途的描述不代表每种产品都单独列示了收入。",
+      "questionId": "Q1",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "1,825,720,059.91",
+          "pdfPage": 21,
+          "section": "业务、经营方式或收入构成（PDF页序21）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "1,178,935,558.91",
+          "pdfPage": 21,
+          "section": "业务、经营方式或收入构成（PDF页序21）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "537,718,508.35",
+          "pdfPage": 21,
+          "section": "业务、经营方式或收入构成（PDF页序21）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "109,065,992.65",
+          "pdfPage": 21,
+          "section": "业务、经营方式或收入构成（PDF页序21）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "2025年营业收入合计1825720059.91元；PCM板1178935558.91元，以全部营业收入为分母计算占比64.57%；VCM板537718508.35元，以全部营业收入为分母计算占比29.45%；其他109065992.65元，以全部营业收入为分母计算占比5.97%。2025年营业收入约18.26亿元，其中PCM板约11.79亿元，占64.57%；VCM板约5.38亿元，占29.45%；其他约1.09亿元，占5.97%。",
+      "claimType": "calculation",
+      "id": "920768-Q2-C001",
+      "limitations": "占比采用所列收入分类，以全部营业收入为分母；收入占比不等于利润贡献。采用已登记原件披露日2026-04-15；Tushare公告日期为20260416，收入金额相同，日期差异原样保留。",
+      "questionId": "Q2",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "公司销售模式主要为直销模式，少量通过贸易商销售",
+          "pdfPage": 11,
+          "section": "业务、经营方式或收入构成（PDF页序11）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "包括各品牌制造商和OEM 厂商",
+          "pdfPage": 12,
+          "section": "业务、经营方式或收入构成（PDF页序12）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司主要直接向家电等制造商销售，少量通过贸易商；客户按生产计划下订单，公司制造、交付并按约结算。",
+      "claimType": "company_statement",
+      "id": "920768-Q3-C001",
+      "limitations": "材料销售和下游家电销售属于产业链的不同环节。",
+      "questionId": "Q3",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "code": "920768.BJ",
+  "contentTier": "L",
+  "introduction": "向家电制造商供应带涂层或覆膜的金属外观材料。",
+  "name": "拾比佰",
+  "schema": "atlas-company-overview",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "publishedAt": "2026-04-15",
+      "publisher": "珠海拾比佰彩图板股份有限公司（巨潮资讯网）",
+      "reportPeriod": "2025-12-31",
+      "title": "珠海拾比佰彩图板股份有限公司2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225107476.PDF"
+    }
+  ],
+  "tagline": "向家电制造商供应带涂层或覆膜的金属外观材料"
+}

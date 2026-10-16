@@ -1,0 +1,18 @@
+{
+  "id": "20261002-code-03",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T08:47:40+08:00",
+  "summary": "ops-02 门禁校验凭据：validate 写 diagnostics/update-gate 凭据，record 与 --amend 只接受凭据达到的级别，树改动即作废；运行手册顺序改为升版本 → validate → record",
+  "version": "1.2.14",
+  "branch": "cursor/gate-validate-evidence-dd40",
+  "commit": "47503e9",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/9",
+  "validated": "full",
+  "validatedAt": "2026-10-02T10:44:31+08:00",
+  "validatedCommit": "e6b32fd",
+  "rollback": "revert 本 PR 提交；只改脚本与 docs",
+  "next": "stage / activate 由所有者在配置部署变量后执行；data-01 验收标准仍待所有者",
+  "data": {},
+  "amendedAt": "2026-10-02T10:44:32+08:00"
+}

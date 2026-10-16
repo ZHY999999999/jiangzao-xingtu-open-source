@@ -1,0 +1,16 @@
+{
+  "id": "20261001-code-03",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T16:27:47+08:00",
+  "summary": "ui-02 星图 ≤760px 单列布局：顶栏 + 全宽舞台，目录与抽屉改为底部面板，触摸/窄屏工具条只留视图、缩放、主题、复位；v1.2.10",
+  "version": "1.2.10",
+  "branch": "cursor/atlas-mobile-layout-dd40",
+  "commit": "8011f18",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/3",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；或回到 v1.2.9（提交 8011f18）",
+  "next": "完整校验与真机触摸验证（拖拽旋转、面板上滑）需在完整项目库机器补跑；之后按 roadmap 做 ui-03 抽屉信息架构",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

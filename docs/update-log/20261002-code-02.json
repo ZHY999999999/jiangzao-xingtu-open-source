@@ -1,0 +1,17 @@
+{
+  "id": "20261002-code-02",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T00:32:13+08:00",
+  "summary": "ui-06 全站统一页头 SiteHeader：bar / home / sidebar 三个变体共用一套位置与令牌，替换公司档案顶栏、首页签名栏与星图左栏品牌块，明暗按钮从星图工具条移到页头；v1.2.14",
+  "version": "1.2.14",
+  "branch": "cursor/shared-site-header-dd40",
+  "commit": "1d803da",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/8",
+  "validated": "full",
+  "rollback": "20260930T102639082012Z-1ea11daef87b",
+  "next": "v1.2.14 已正式发布（发行 20261001T200905663747Z-0bd0f3e6a87f）；待用户实际使用反馈后按 roadmap 推进 data-01 或新 UI 项",
+  "data": {},
+  "amendedAt": "2026-10-02T09:00:00+08:00",
+  "releaseId": "20261001T200905663747Z-0bd0f3e6a87f"
+}

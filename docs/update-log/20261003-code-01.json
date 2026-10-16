@@ -1,0 +1,44 @@
+{
+  "id": "20261003-code-01",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-03T15:12:20+08:00",
+  "summary": "统一main板块修复、阅读优化与14家已验七问，1.2.19真实上线并通过独立公网验收；随后同步同一产品源码。",
+  "version": "1.2.19",
+  "branch": "codex/unified-website-v1.2.19",
+  "commit": "74c2e17",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/14",
+  "validated": "full",
+  "validatedAt": "2026-10-03T14:11:40+08:00",
+  "validatedCommit": "74c2e17",
+  "rollback": "20261003T041239249294Z-23570723b0fd",
+  "next": "统一1.2.19已上线；同一产品源码通过PR14同步。原库仍只读，后续从统一发行基线继续沙河股份v002及逐家公司验收发布。",
+  "data": {
+    "companies": {
+      "snapshotId": "20260926-f6612ceba52c2cbc",
+      "asOf": "20260926",
+      "total": 5569
+    },
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "market": {
+      "tradeDate": "2026-09-30",
+      "snapshotId": "20260930-29c46fe803519650",
+      "coverage": {
+        "listed": 5572,
+        "missing": 11,
+        "valued": 5561
+      }
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "releaseId": "20261003T061409435747Z-97ac78b281cf",
+  "amendedAt": "2026-10-03T15:18:43+08:00"
+}

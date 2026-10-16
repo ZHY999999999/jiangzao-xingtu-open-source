@@ -1,0 +1,29 @@
+{
+  "id": "20261004-code-02",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-04T22:46:32+08:00",
+  "summary": "第一层本批新增 12 家，累计 15 家随 1.2.21 / 7fc5b709c841 完成整站装入及同版公网验收；保留 14 家七问和 1 份工业富联只读标杆，按公司去重可读 16 家。新增内容采用机械全检、独立重点抽检和代表页面实看，公开批准快照保留各成员实际抽检范围；5568 家第一层目标仍在进行。",
+  "version": "1.2.21",
+  "branch": "codex/l1-batch-20261004",
+  "commit": "cd51a59",
+  "pr": null,
+  "validated": "full",
+  "validatedAt": "2026-10-04T21:31:08+08:00",
+  "validatedCommit": "cd51a59",
+  "rollback": "20261004T110542309882Z-964a0c25bccd / 1.2.20 / 7ae37467b4cc",
+  "next": "按行业与证据可复用情况继续批量生产，机械全检、独立风险抽检和整批发布；未抽中成员不记作逐家完整复核。",
+  "data": {
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "releaseId": "20261004T134111712357Z-d577a94c1700"
+}

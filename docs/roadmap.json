@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-04",
+  "statusValues": [
+    "pending",
+    "in_progress",
+    "done",
+    "dropped"
+  ],
+  "items": [
+    {
+      "id": "content-01-l1-overview",
+      "area": "content",
+      "title": "全公司第一层生意概览与全站叙述视角优化",
+      "status": "in_progress",
+      "owner": "local",
+      "acceptance": [
+        "冻结启动索引；已有七问不折算为第一层完成",
+        "批内机械全检；由非作者按代表模式与风险抽检事实、可读性和叙述视角；变化页面实看，未抽中成员不冒称逐家全审",
+        "第一层先读，已有详细解读和原朗读继续可用，工业富联保持只读",
+        "两层批准和目录计数正确；整站及公网实际验收后同步同版源码",
+        "分别记录第一层内容及候选、整站装入、线上发布数量"
+      ],
+      "pr": null,
+      "version": "1.2.22",
+      "updateLog": "20261005-code-01",
+      "task": "docs/tasks/l1-company-overview.md",
+      "notes": "第一层本批新增 40 家，累计 55 家随 1.2.22 / 61be615b4be4 完成整站装入及同版公网验收；保留 14 家七问和 1 份工业富联只读标杆，按公司去重可读 56 家。新增内容采用机械全检、非作者代表与风险抽检、共享批次页面验收，公开批准快照保留实际抽检范围。全索引第一层仍待继续。 本批55家公司收口后交接；新对话核唯一生产权与运行环境，再按行业批量推进剩余L公司。",
+      "previousPr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/15"
+    },
+    {
+      "id": "prod-00-product-brief",
+      "area": "product",
+      "title": "产品闭环盘点（只读）→ docs/product-brief.md",
+      "status": "done",
+      "owner": "local",
+      "task": "docs/tasks/prod-00-product-brief.md",
+      "acceptance": [
+        "八个小节齐全，每节有依据路径与日期或「待所有者决定」",
+        "不含私人研究、公司名单、凭据、服务器信息、收入数字",
+        "三类数据源的商用 / 再分发条款分别有出处与结论",
+        "零代码改动、零服务器操作"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/11",
+      "version": null,
+      "updateLog": "20261002-code-06",
+      "notes": "后续 roadmap 排序以这份简报为准；首页已公开承诺「客观信息免费，深度讲解逐步开放」。2026-10-02 审查 3 通过并收口；所有者四决均为 A：样板顺序沿现有样板补齐、度量隐私先会话内匿名聚合、收费周期保持未定、试用用固定公开完整样板。"
+    },
+    {
+      "id": "prod-01-data-licensing",
+      "area": "product",
+      "title": "数据许可核验：Tushare / 同花顺供给链 / 公告原文",
+      "status": "pending",
+      "owner": "所有者 + local",
+      "acceptance": [
+        "三类数据源（Tushare 标准许可、同花顺供给链、公告平台）各有书面结论与期限",
+        "结论明确免费层可公开的数据粒度（静态 JSON 即交付数据）",
+        "付费建设开始前完成；会员与支付维持不做，直到本项与 prod-02 有结论"
+      ],
+      "pr": null,
+      "version": null,
+      "updateLog": null,
+      "notes": "非代码任务；简报第 6 节是整个变现的硬门。审查 3 商业闭环排序第 1。"
+    },
+    {
+      "id": "ui-07-listen-read-conversion",
+      "area": "ui",
+      "title": "试听与阅读转化面：公司档案页重做",
+      "status": "done",
+      "owner": "local",
+      "acceptance": [
+        "原阅读43项及PR13四项修订在统一候选重新验收",
+        "14份已验七问原字节不变，朗读逐字来自当前正文，保留工业富联原录音",
+        "首页、下一家公司与样板桥使用同一动态样板顺序，区分14份七问与1份旧标杆",
+        "保留main裸板块代码解析，全部数据与冻结基线相同",
+        "当前生产批准门与公开不可发布重建模式分离，精确源码导出及干净副本重建",
+        "独立审查和真实页面通过后上线，再同步同一最终源码至GitHub"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/14",
+      "version": "1.2.19",
+      "updateLog": "20261003-code-01",
+      "notes": "功能和真实发布验收完成：1.2.19已上线14家七问及1份工业富联只读标杆，完整构建、本地及公网独立验收通过。PR13与独立1.2.16是整合输入；同一产品源码已推送PR14分支，main合并状态以PR实际回执为准。原完整项目库未回传，后续公司仅从统一源码及已验发行接续。",
+      "task": "docs/tasks/unified-website-1.2.19.md"
+    },
+    {
+      "id": "prod-02-content-capacity-ledger",
+      "area": "product",
+      "title": "内容产能实测：第 3–5 家样板工时与成本账本",
+      "status": "pending",
+      "owner": "local + 所有者",
+      "acceptance": [
+        "补齐第 3–5 家样板时逐家记录工时、返修与语音单位成本",
+        "形成可持续引用的产能账本，作为定价与更新频率承诺的依据"
+      ],
+      "pr": null,
+      "version": null,
+      "updateLog": null,
+      "notes": "所有者已选样板顺序 A：沿现有样板主题补齐。审查 3 排序第 3。"
+    },
+    {
+      "id": "prod-03-minimal-metrics",
+      "area": "product",
+      "title": "最小度量：公司检索、试听完成率、复访",
+      "status": "pending",
+      "owner": "local",
+      "acceptance": [
+        "三项指标各有固定事件、分母与观察窗口",
+        "埋点方式符合所有者已选的度量隐私方案"
+      ],
+      "pr": null,
+      "version": null,
+      "updateLog": null,
+      "notes": "所有者已选度量隐私 A：会话内匿名聚合；按审查 3，「7 日复访」在 A 下暂以「同会话内二次检索」替代，改选 B 再恢复。待设计师出任务书。审查 3 排序第 4。"
+    },
+    {
+      "id": "ui-08-cleanup-misc",
+      "area": "ui",
+      "title": "收尾杂项：调试读数、原生 select、aria-label、拼音搜索、atlas.js 迁 TS",
+      "status": "pending",
+      "owner": "local",
+      "acceptance": [
+        "侧栏调试读数移出用户界面",
+        "原生 select 替换、卡片 aria-label、拼音首字母搜索",
+        "atlas.js 迁 TS"
+      ],
+      "pr": null,
+      "version": null,
+      "updateLog": null,
+      "notes": "低优先级。审查 3 排序第 5。"
+    },
+    {
+      "id": "ui-01-design-tokens",
+      "area": "ui",
+      "title": "统一设计令牌与字号阶梯",
+      "status": "done",
+      "acceptance": [
+        "tokens.css 是颜色、字号、间距、圆角、动效的唯一来源，kit/app/company-reading 不再各带色板",
+        "样式里没有低于 11px 的字号；展示字号只允许 clamp() 或 > 42px 的显式值",
+        "--faint 在两套主题的 --bg 与 --raised 上均不低于 4.5:1",
+        "python scripts/test_styles.py 通过"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/1",
+      "version": "1.2.9",
+      "updateLog": "20261001-code-01"
+    },
+    {
+      "id": "ops-01-update-framework",
+      "area": "ops",
+      "title": "固定更新框架：四种更新 × 六步，门禁脚本与记录文件",
+      "status": "done",
+      "acceptance": [
+        "docs/update-framework.md 写清四种更新类型、六个固定步骤、每步命令与门槛",
+        "docs/roadmap.json 与 docs/update-log/ 作为接手时唯一需要读的状态文件",
+        "python scripts/update_gate.py <type> preflight|validate|record 在有数据和无数据的机器上都能运行",
+        ".github/PULL_REQUEST_TEMPLATE.md 固定四段；AGENTS.md 与 README 指向框架"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/2",
+      "version": null,
+      "updateLog": "20261001-code-02",
+      "notes": "无数据机器上只做了静态校验；完整校验在完整项目库机器补跑。"
+    },
+    {
+      "id": "ops-02-gate-validation-evidence",
+      "area": "ops",
+      "title": "门禁校验凭据：record 只接受 validate 真实达到的级别",
+      "status": "done",
+      "acceptance": [
+        "validate 把级别、通过与否、HEAD 与工作区指纹写成 diagnostics/update-gate/validate-<type>.json",
+        "record 无凭据、凭据未通过、树已改动或声明级别高于凭据时拒绝；--validated 缺省取凭据级别",
+        "record --amend 支持 --validated，并写入 validatedAt / validatedCommit",
+        "运行手册把顺序改为 升版本 → validate → record"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/9",
+      "version": null,
+      "updateLog": "20261002-code-03",
+      "notes": "起因：本地 agent 补记 validated=full 时发现 --amend 不支持改级别，且 record 可凭空声明 full。"
+    },
+    {
+      "id": "ui-02-atlas-mobile-layout",
+      "area": "ui",
+      "title": "星图 ≤760px 单列布局与工具条精简",
+      "status": "done",
+      "acceptance": [
+        "≤760px 下取消 180px 左栏：顶部为搜索与行业/概念切换，三维舞台全宽",
+        "目录与抽屉改为底部可上滑面板，拖拽旋转与页面滚动不冲突",
+        "pointer: coarse 下工具条只保留视图切换、缩放与复位，去掉 FPS/自转/连线动效",
+        "390px 宽明暗两套主题截图无溢出；桌面布局不变"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/3",
+      "version": "1.2.10",
+      "updateLog": "20261001-code-03",
+      "notes": "静态校验与样板页截图通过；真机触摸（拖拽旋转、面板上滑）与完整校验在完整项目库机器补跑。捏合缩放未实现，归入 ui-04。"
+    },
+    {
+      "id": "ui-03-drawer-information-architecture",
+      "area": "ui",
+      "title": "抽屉信息架构：主行动前置，口径说明折叠",
+      "status": "done",
+      "acceptance": [
+        "「展开个股星图」「打开公司档案」在抽屉打开时无需滚动即可点到",
+        "数据口径、覆盖率、来源差异合并为一个可展开的「数据说明」区块",
+        "产业龙头候选默认显示 3 张，其余折叠；关闭按钮命中区不小于 40px",
+        "重复的边界说明文案收敛到一处，正文只保留必要的一句"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/5",
+      "version": "1.2.11",
+      "updateLog": "20261001-code-05",
+      "notes": "静态校验与样板页截图通过；完整校验在完整项目库机器补跑。"
+    },
+    {
+      "id": "ui-04-system-preferences-touch",
+      "area": "ui",
+      "title": "系统偏好与触摸设备：初始主题、减少动态、目录联动、搜索防抖",
+      "status": "done",
+      "acceptance": [
+        "首次访问按 prefers-color-scheme 决定主题，localStorage 仍优先",
+        "prefers-reduced-motion 下默认关闭自转与连线光点",
+        "触摸设备上目录行提供点选高亮替代 onMouseOver 联动",
+        "目录搜索 5,000+ 只股票扫描加入防抖，输入不卡顿",
+        "星图支持双指捏合缩放，走与滚轮相同的 dolly 路径；单指拖拽旋转不受影响"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/6",
+      "version": "1.2.12",
+      "updateLog": "20261001-code-06",
+      "notes": "主题初始化四种场景在无头 Chrome 验证通过；捏合缩放与减少动态默认需真机 / 有数据星图验证；完整校验在完整项目库补跑。"
+    },
+    {
+      "id": "ui-05-css-split-app-refactor",
+      "area": "ui",
+      "title": "CSS 拆分格式化与 App.tsx 组件拆分",
+      "status": "done",
+      "acceptance": [
+        "company.css 等单行超长媒体查询格式化，按组件拆文件；删除无引用的 .cl-toc/.cl-catalog/.cl-timeline 等规则",
+        "App.tsx 的抽屉（板块/个股两种模式）、关系卡、目录、工具条拆为独立组件；drill/back/mount 收进 hook",
+        "python scripts/test_styles.py 与 tsc 通过，样板页截图与拆分前一致"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/7",
+      "version": "1.2.13",
+      "updateLog": "20261002-code-01",
+      "notes": "CSS 三步各有文本级或截图级证明；App.tsx 拆分只有 tsc 证据，运行时交互需在完整项目库机器点一遍。drill/back 留在 App.tsx 作为编排层，未再抽 hook。"
+    },
+    {
+      "id": "ui-06-shared-header",
+      "area": "ui",
+      "title": "全站统一页头：品牌、产品切换、主题",
+      "status": "done",
+      "acceptance": [
+        "首页、星图、公司档案使用同一个页头组件，星图可收进左栏顶部",
+        "三个页面切换时品牌位置、产品切换与主题按钮位置一致"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/8",
+      "version": "1.2.14",
+      "updateLog": "20261002-code-02",
+      "notes": "设计变更，样板页三页面明暗与手机截图核对位置一致；完整校验与真实页面切换需在完整项目库机器确认。"
+    },
+    {
+      "id": "data-01-company-increment-acceptance",
+      "area": "data",
+      "title": "公司原文增量链验收标准",
+      "status": "pending",
+      "acceptance": [
+        "所有者写明验收条件后，project-status.json 的 companyIncrementalUpdates 才能从 blocked_pending_acceptance 改为 accepted",
+        "验收前 check-company-updates.py 只产生候选，不 --publish，不解除 builder/updater 的原文覆盖保护"
+      ],
+      "pr": null,
+      "version": null,
+      "updateLog": null,
+      "notes": "由所有者在完整项目库中完成；这里只跟踪状态。"
+    },
+    {
+      "id": "ops-03-release-retention",
+      "area": "ops",
+      "title": "发行保留与上传容量预检",
+      "status": "done",
+      "acceptance": [
+        "默认dry-run，显式apply及fresh planId；保留至少三份完整发行与实际LIVE/即时回滚目标",
+        "仅清理完整active_verified STORE/VIEWS；未知与未完成上传、暂存工具、事务原件保留",
+        "Linux真实硬链接/锁/故障/回滚与loopback HTTP验收通过",
+        "上传前与解包前按文件系统检查容量和inode，保留1GiB硬余量与6GiB运营告警"
+      ],
+      "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/12",
+      "version": null,
+      "updateLog": "20261002-code-05",
+      "notes": "运维脚本，不发布网站；详细服务器回执留在完整项目管理证据，不进入代码仓库。"
+    }
+  ]
+}

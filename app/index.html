@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=20260926-2" sizes="16x16 32x32 48x48 64x64 128x128 256x256">
+<link rel="icon" type="image/png" href="/images/brand/favicon-32.png?v=20260926-2" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/brand/favicon-night-32.png?v=20260926-2" sizes="32x32" media="(prefers-color-scheme: dark)">
+  <title>降噪星图 · A股市场与公司知识库</title>
+<meta name="description" content="从市场星图走进公司档案，了解A股公司的发展历史、主营业务、收入来源和多年经营财报。基础与深度覆盖分别标注，资料日期与出处可查。">
+<script>
+try { var savedTheme = localStorage.getItem('a-share-knowledge-theme'); if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme; else if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark'; } catch (_) {}
+</script>
+<style>
+/* React 的挂载点不能多占一层盒子：中间多一个带盒子的 <div id="root"> 会掐断
+   html → body → #app 的 height:100% 参照链，撑满视口的三栏版面会塌成按内容长高。
+   display:contents 让挂载点不生成盒子，父子关系和没有它时完全一样。 */
+#root{display:contents}
+#boot{position:fixed;inset:0;display:grid;place-content:center;background:#050507;
+  color:#9a9aa3;font:13px/2.2 system-ui,sans-serif;padding:40px;text-align:center;z-index:999}
+#boot .t{font-size:15px;color:#e8e8ec;font-weight:600}
+#boot code{font-size:11px;opacity:.75;word-break:break-all;display:block;max-width:74vw;
+  margin:8px auto 0;text-align:left;white-space:pre-wrap}
+#boot button{margin:18px auto 0;padding:8px 22px;font:inherit;cursor:pointer;
+  background:#7d9bff;color:#0a0c14;border:0;border-radius:8px}
+#boot a{display:block;margin-top:16px;color:#a6c3ff;text-underline-offset:4px}
+#boot .spin{width:26px;height:26px;margin:0 auto 16px;border-radius:50%;
+  border:2px solid #2a2d3a;border-top-color:#7d9bff;animation:bspin .8s linear infinite}
+:root[data-theme="light"] #boot{background:#f4f4f1;color:#5b5e65}
+:root[data-theme="light"] #boot .t{color:#16171a}
+@keyframes bspin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<div id="boot"><div><div class="spin"></div><div class="t">降噪星图加载中…</div>
+<div style="opacity:.6">正在准备页面与公司资料</div><a href="#/companies" onclick="location.hash='/companies';location.reload()">先阅读公司档案 →</a></div></div>
+<script>
+/* 启动探针：不依赖任何框架。
+   应用挂载成功后会把 #boot 藏掉（window.__atlasBooted = true）。
+   启动期任何错误 / 超时未挂载，都把原因直接显示在这里 —— 不留黑屏。 */
+(function () {
+  var boot = document.getElementById('boot');
+  var failed = false;
+  function fail(title, msg, isTimeout) {
+    if (window.__atlasBooted) return;                 // 已挂载，交给应用内兜底
+    if (failed) return;                              // 保留首个真实错误，不被超时覆盖
+    if (!isTimeout) failed = true;
+    boot.innerHTML = '<div><div class="t">' + title + '</div>' +
+      '<div>刷新一次通常能恢复；若反复出现，请把下面的信息反馈给我：</div>' +
+      '<code>' + String(msg || '未知错误').replace(/</g, '&lt;') + '</code>' +
+      '<button onclick="location.reload()">刷新页面</button>' +
+      '<a href="#/companies" onclick="location.hash=\'/companies\';location.reload()">打开公司目录 →</a></div>';
+  }
+  window.__atlasFail = fail;
+  window.addEventListener('error', function (e) {
+    if (window.__atlasBooted) return;
+    if (e.target && e.target.tagName === 'SCRIPT') {
+      fail('页面脚本加载失败', e.target.src || '内联脚本加载失败');
+      return;
+    }
+    if (!e.message && !e.error) return;
+    fail('星图启动时出了点问题', (e.message || e.error) + (e.filename ? '\n' + e.filename.split('/').pop() + ':' + e.lineno : ''));
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) {
+    if (window.__atlasBooted) return;
+    fail('星图启动时出了点问题（异步）', e.reason && (e.reason.stack || e.reason.message) || e.reason);
+  });
+  setTimeout(function () {
+    if (!window.__atlasBooted) fail('加载超时', '页面 15 秒内未完成启动。\n请检查脚本是否加载成功，以及上方是否有具体错误信息。', true);
+  }, 15000);
+})();
+</script>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
+

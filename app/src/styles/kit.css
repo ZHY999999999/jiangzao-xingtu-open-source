@@ -1,0 +1,135 @@
+/* Shared look of the whole interface.
+ *
+ * Every colour, size, radius and easing comes from tokens.css; this file only
+ * holds the reset, the base element styles and the generic controls that pages
+ * compose. Pages add their own components but never their own palette.
+ *
+ * Three rules do most of the work:
+ *   1. Hairlines, never drop shadows. A 1px line at 12% ink reads as precision;
+ *      a soft shadow reads as a 2016 SaaS card.
+ *   2. Every numeral is mono and tabular, so columns of figures line up and the
+ *      thing reads as an instrument rather than a web page.
+ *   3. Exactly one accent, spent only on the active state, the primary action and
+ *      the single most important series. Everything else is ink at some opacity.
+ */
+
+@font-face{font-family:"Geist Variable";font-style:normal;font-weight:100 900;font-display:swap;
+  src:url("/fonts/geist-latin-wght.woff2") format("woff2");}
+@font-face{font-family:"Geist Mono Variable";font-style:normal;font-weight:100 900;font-display:swap;
+  src:url("/fonts/geist-mono-latin-wght.woff2") format("woff2");}
+
+* { box-sizing: border-box; margin: 0; padding: 0 }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: var(--fs-md)/1.55 var(--sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ── type ────────────────────────────────────────────────────────────────── */
+h1, h2, h3 { font-weight: 560; letter-spacing: -.015em; line-height: 1.25 }
+h1 { font-size: var(--fs-lg) }
+h2 { font-size: var(--fs-md) }
+
+/* The label style that carries most of the "considered" feeling: small, tracked
+   out, muted, never bold. */
+.eyebrow {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+/* ── controls ────────────────────────────────────────────────────────────── */
+.btn {
+  font: inherit;
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  padding: 5px 11px;
+  cursor: pointer;
+  transition: background var(--fast), border-color var(--fast), color var(--fast);
+  white-space: nowrap;
+}
+.btn:hover { background: var(--raised); border-color: var(--faint) }
+.btn:active { transform: translateY(.5px) }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink) }
+.btn.primary:hover { filter: brightness(1.08) }
+.btn:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+
+select, input[type=text], input[type=search], input[type=number], input[type=date] {
+  font: inherit;
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  padding: 5px 9px;
+  outline: none;
+  transition: border-color var(--fast);
+}
+select:hover, input:hover { border-color: var(--faint) }
+select { cursor: pointer }
+
+.chip {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--raised);
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  padding: 2px 9px;
+  cursor: pointer;
+  transition: all var(--fast);
+}
+.chip.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft) }
+
+/* ── tables ──────────────────────────────────────────────────────────────── */
+table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm) }
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--panel);
+  text-align: left;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding: 9px var(--pad);
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+  user-select: none;
+}
+tbody td { padding: 9px var(--pad); border-bottom: 1px solid var(--line-soft) }
+tbody tr { transition: background var(--fast) }
+tbody tr:hover { background: var(--raised) }
+tbody tr:last-child td { border-bottom: 0 }
+
+/* ── motion ──────────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+/* ── scrollbars ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 10px; height: 10px }
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 99px;
+  border: 3px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--faint) }
+::-webkit-scrollbar-track { background: transparent }

@@ -1,0 +1,18 @@
+/* New public seven-question content; existing editorial layouts remain unchanged. */
+.sq-reading .cq-list>li{grid-template-columns:34px 170px minmax(0,1fr)}
+.sq-reading .sq-answer-text,.sq-preserve{white-space:pre-wrap;overflow-wrap:anywhere}
+.sq-evidence{margin-top:12px;min-width:0}
+.sq-evidence>summary{cursor:pointer;color:var(--accent);padding:10px 0;font-size:var(--fs-md)}
+.sq-evidence>summary:focus-visible,.sq-reading a:focus-visible,.sq-sources a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.sq-claim{padding:18px 0;border-top:1px solid var(--line)}
+.sq-claim>header{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.sq-citation{margin:14px 0;padding:12px 16px;border-left:2px solid var(--line);background:var(--cr-surface,var(--panel));min-width:0}
+.company-library .sq-citation h4{font-size:var(--fs-md);font-weight:500;margin:0 0 5px}
+.sq-citation blockquote{margin:10px 0;color:var(--muted);font-size:var(--fs-md);line-height:1.75}
+.sq-citation a,.sq-sources a{display:inline-block;max-width:100%;padding:6px 0;color:var(--accent);font-size:var(--fs-md);overflow-wrap:anywhere}
+.sq-limitations{font-size:var(--fs-md);line-height:1.75;margin-top:12px}
+.sq-limitations ul{padding-left:20px;margin:6px 0}
+.sq-sources{margin-bottom:24px}
+.sq-sources .cr-source-card{margin:12px 0;overflow-wrap:anywhere}
+@media(max-width:900px){.sq-reading .cq-list>li{grid-template-columns:28px minmax(0,1fr)}.sq-reading .cq-answer{grid-column:2}.sq-reading .cq-list>li>h3{grid-column:2}}
+@media(max-width:600px){.sq-reading .cq-list>li{column-gap:10px}.sq-citation{padding:10px 12px}.sq-evidence>summary{padding:12px 0}}

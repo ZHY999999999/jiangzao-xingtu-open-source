@@ -1,0 +1,16 @@
+{
+  "id": "20261001-code-06",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T23:34:04+08:00",
+  "summary": "ui-04 系统偏好与触摸：prefers-color-scheme 初始主题并跟随系统直到用户选择，reduced-motion 默认关自转/光点，双指捏合缩放走 dolly，触摸端目录行不再绑定悬停，搜索用 useDeferredValue + 预建小写索引；v1.2.12",
+  "version": "1.2.12",
+  "branch": "cursor/system-preferences-touch-dd40",
+  "commit": "138a55c",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/6",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；或回到 v1.2.11（提交 138a55c）",
+  "next": "真机验证捏合缩放与单指旋转互不干扰；完整校验在完整项目库补跑；之后按 roadmap 做 ui-05 CSS 拆分与 App.tsx 组件拆分",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

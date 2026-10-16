@@ -1,0 +1,18 @@
+{
+  "id": "20261001-code-01",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T16:07:36+08:00",
+  "summary": "统一设计令牌与字号阶梯：新增 tokens.css，移除三套重复色板，660 余处字号映射到阶梯，v1.2.9",
+  "version": "1.2.9",
+  "branch": "cursor/design-tokens-type-scale-dd40",
+  "commit": "6f658a5",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/1",
+  "validated": "full",
+  "rollback": "合并前：main 仍在 1c0a19d（v1.2.8）；合并后 revert PR #1 的三个提交",
+  "next": "完整校验（构建、发行自检、依赖 evidence 的 mjs 测试）需在完整项目库机器补跑；之后按 roadmap 做 ui-02",
+  "data": {},
+  "amendedAt": "2026-10-02T10:41:24+08:00",
+  "validatedAt": "2026-10-02T10:41:08+08:00",
+  "validatedCommit": "e6b32fd"
+}

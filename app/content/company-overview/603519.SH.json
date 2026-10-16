@@ -1,0 +1,158 @@
+{
+  "answers": [
+    {
+      "claimIds": [
+        "603519-Q1-C001"
+      ],
+      "questionId": "Q1",
+      "text": "公司生产家电外观用复合材料，主要是表面涂覆有机涂料的PCM板和表面复合功能薄膜的VCM板，用于冰箱、洗衣机等家电的外观面板。"
+    },
+    {
+      "claimIds": [
+        "603519-Q2-C001"
+      ],
+      "questionId": "Q2",
+      "text": "2025年营业收入约16.88亿元，其中有机涂层板（PCM）约15.51亿元，占91.88%；覆膜板（VCM）约0.57亿元，占3.38%；其他约0.80亿元，占4.73%。"
+    }
+  ],
+  "asOf": "2026-04-18",
+  "businessModel": {
+    "flows": [
+      {
+        "buyer": {
+          "claimIds": [
+            "603519-Q3-C001"
+          ],
+          "text": "国内外家电整机厂商"
+        },
+        "id": "materials",
+        "income": {
+          "claimIds": [
+            "603519-Q2-C001",
+            "603519-Q3-C001"
+          ],
+          "text": "取得材料销售收入"
+        },
+        "work": {
+          "claimIds": [
+            "603519-Q1-C001",
+            "603519-Q3-C001"
+          ],
+          "text": "按订单生产不同颜色、图案和性能的复合材料板"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "claimIds": [
+          "603519-Q2-C001",
+          "603519-Q3-C001"
+        ],
+        "text": "公司处于家电材料供应环节，不直接把冰箱、洗衣机整机作为主产品销售。"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "citations": [
+        {
+          "excerpt": "主导产品分为覆膜板（VCM）和有机涂层板（PCM）",
+          "pdfPage": 12,
+          "section": "业务、经营方式或收入构成（PDF页序12）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "薄钢板表面获得的复合材料",
+          "pdfPage": 11,
+          "section": "业务、经营方式或收入构成（PDF页序11）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司生产家电外观用复合材料，主要是表面涂覆有机涂料的PCM板和表面复合功能薄膜的VCM板，用于冰箱、洗衣机等家电的外观面板。",
+      "claimType": "company_statement",
+      "id": "603519-Q1-C001",
+      "limitations": "产品及用途的描述不代表每种产品都单独列示了收入。",
+      "questionId": "Q1",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "1,688,120,215.60",
+          "pdfPage": 15,
+          "section": "业务、经营方式或收入构成（PDF页序15）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "1,551,127,721.02",
+          "pdfPage": 16,
+          "section": "业务、经营方式或收入构成（PDF页序16）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "57,128,057.28",
+          "pdfPage": 16,
+          "section": "业务、经营方式或收入构成（PDF页序16）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "79,864,437.30",
+          "pdfPage": 16,
+          "section": "业务、经营方式或收入构成（PDF页序16）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "2025年营业收入合计1688120215.60元；有机涂层板（PCM）1551127721.02元，以全部营业收入为分母计算占比91.88%；覆膜板（VCM）57128057.28元，以全部营业收入为分母计算占比3.38%；其他79864437.30元，以全部营业收入为分母计算占比4.73%。2025年营业收入约16.88亿元，其中有机涂层板（PCM）约15.51亿元，占91.88%；覆膜板（VCM）约0.57亿元，占3.38%；其他约0.80亿元，占4.73%。",
+      "claimType": "calculation",
+      "id": "603519-Q2-C001",
+      "limitations": "占比采用所列收入分类，以全部营业收入为分母；收入占比不等于利润贡献。",
+      "questionId": "Q2",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "公司的产品全部采用直销的方式，直接销售给家电厂商",
+          "pdfPage": 13,
+          "section": "业务、经营方式或收入构成（PDF页序13）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "小批量、多品种",
+          "pdfPage": 13,
+          "section": "业务、经营方式或收入构成（PDF页序13）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司主要根据客户订单组织小批量、多品种生产，产品采用直销，直接供给家电厂商，满足外观及加工等要求。",
+      "claimType": "company_statement",
+      "id": "603519-Q3-C001",
+      "limitations": "PCM和VCM是两种面板材料；原表其他项目还包括原材料销售，不能都当作成品板销售。",
+      "questionId": "Q3",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "code": "603519.SH",
+  "contentTier": "L",
+  "introduction": "向家电厂商提供用于外观面板的复合材料。",
+  "name": "立霸股份",
+  "schema": "atlas-company-overview",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "publishedAt": "2026-04-18",
+      "publisher": "江苏立霸实业股份有限公司（巨潮资讯网）",
+      "reportPeriod": "2025-12-31",
+      "title": "江苏立霸实业股份有限公司2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118665.PDF"
+    }
+  ],
+  "tagline": "向家电厂商提供用于外观面板的复合材料"
+}

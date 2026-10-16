@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-03T07:12:20.675461+00:00",
+  "scope": "Public delivery summary; original private execution receipts retained by project owner",
+  "version": "1.2.19",
+  "revision": "a75161eb50e1",
+  "releaseId": "20261003T061409435747Z-97ac78b281cf",
+  "validatedSourceCommit": "74c2e17ae4d4b79cd30ac56371e0213e7f9bb19c",
+  "validated": "full",
+  "validatedAt": "2026-10-03T14:11:40+08:00",
+  "publicUrl": "https://atlas.thinkpair.cn/",
+  "acceptedSevenQuestionContentCount": 14,
+  "localWholeSiteSevenQuestionCount": 14,
+  "publishedSevenQuestionCount": 14,
+  "legacyReadOnlyBenchmarkCount": 1,
+  "companyIndexCount": 5569,
+  "companySnapshot": "20260926-f6612ceba52c2cbc",
+  "baseDataChangedFiles": 0,
+  "applicationInputs": 5736,
+  "distributionFiles": 5614,
+  "assemblySha256": "13713938a58b40d95022299e8dbcf074a478b10a435f954553990ebe2f3b002a",
+  "distManifestSha256": "e136bf357c6a3a181c5d3f3eec8a3d9cf24a66e482e331d347fbda2593484aa6",
+  "archiveSha256": "f9567665dcc34a46e5fbff6fdf7498dc330e848abd302a6855dd667dab2ecec2",
+  "independentArtifactReviewSha256": "2465db6212b0ef70def54a9bdc2988ded88a524d0d42e43d17010e434c3ceaae",
+  "independentLocalBrowserReviewSha256": "2868ae30ee9523ad32a49cd9b699218d7b678f825db1c6b25d4affec9bddc370",
+  "verifyReceiptSha256": "baf5337a0b117038eb51fe5c571657ccba31b7fbff851f81fcfff1fe9a524ea9",
+  "publicBrowserReviewSha256": "ea069816c1004492640389e5c90a1481705eb00a900f4cfabf31bbc3262e7b02",
+  "publicBrowserDecision": "passed",
+  "repositoryUiChecks": {
+    "passed": 43,
+    "failed": 0,
+    "skipped": 0
+  },
+  "publicNaturalRecordingRunSha256": "294fb6af46237ca349f9921b4b86dffd3e363052071b2aefe23d4f74111f45e9",
+  "publicNaturalRecordingPlayback": [
+    {
+      "viewport": "desktop",
+      "elapsedSeconds": 170.445,
+      "duration": 169.758125
+    },
+    {
+      "viewport": "mobile",
+      "elapsedSeconds": 170.509,
+      "duration": 169.758125
+    }
+  ],
+  "localExactAnswerComparisons": 392,
+  "localEvidenceComparisons": 1172,
+  "contactSheetSha256": "a6e4559f924b59e4c2ddd63c9f288a2c6220d88961728dfb3deab92a8113b4bc",
+  "rollbackReleaseId": "20261003T041239249294Z-23570723b0fd",
+  "limitations": [
+    "Mobile checks use Edge device emulation, not a physical handset.",
+    "Local recording checks used playback progress and seek-to-end; public playback also ran naturally to completion without seeking in both viewports. No claim of human audible listening.",
+    "SpeechSynthesis transcript and failure-path tests are explicitly simulated local tests; no paid audio was generated.",
+    "Public source recovery reused verified existing dependencies and data; it is not a fresh npm ci test.",
+    "Post-validation delivery documents do not change the 5736 product inputs; full validation belongs to the stated source commit."
+  ]
+}

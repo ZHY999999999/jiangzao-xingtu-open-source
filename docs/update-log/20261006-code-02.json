@@ -1,0 +1,30 @@
+{
+  "id": "20261006-code-02",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-06T14:29:13+08:00",
+  "summary": "第一层本批新增 21 家（家用电器），累计 185 家随 1.2.26 / 6ec48bc9b5bc 完成整站装入、同版公网读回及独立公网浏览器复核；保留 14 家七问和 1 份工业富联只读标杆，按公司去重可读 186 家。家用电器行业至此全部完成。新增内容采用机械全检、非作者代表与风险抽检、代表页面实看，公开批准快照保留实际抽检范围。全索引第一层仍待继续。",
+  "version": "1.2.26",
+  "branch": "codex/l1-it39-20261005",
+  "commit": "0751444",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/24",
+  "validated": "full",
+  "validatedAt": "2026-10-06T13:31:45+08:00",
+  "validatedCommit": "0751444",
+  "rollback": "20261006T032644340061Z-ab7c970eb090 / 1.2.25 / 7ad4f4373ded",
+  "next": "第一层已备家电草稿全部上架完成；后续按用户授权决定是否开启新行业。",
+  "data": {
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "releaseId": "20261006T054347421734Z-672eeb94068a",
+  "amendedAt": "2026-10-06T14:33:02+08:00"
+}

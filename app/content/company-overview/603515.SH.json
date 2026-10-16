@@ -1,0 +1,146 @@
+{
+  "answers": [
+    {
+      "claimIds": [
+        "603515-Q1-C001"
+      ],
+      "questionId": "Q1",
+      "text": "公司研发、生产和销售家居灯具、商用灯具、光源及控制类产品，并提供智能照明系统综合解决方案，服务家庭与商业空间。"
+    },
+    {
+      "claimIds": [
+        "603515-Q2-C001"
+      ],
+      "questionId": "Q2",
+      "text": "2025年营业收入约69.70亿元，其中照明应用产品及其他约69.17亿元，占99.24%。"
+    }
+  ],
+  "asOf": "2026-04-24",
+  "businessModel": {
+    "flows": [
+      {
+        "buyer": {
+          "claimIds": [
+            "603515-Q3-C001"
+          ],
+          "text": "照明经销商及直接采购客户"
+        },
+        "id": "lighting",
+        "income": {
+          "claimIds": [
+            "603515-Q2-C001",
+            "603515-Q3-C001"
+          ],
+          "text": "取得照明产品及相关业务收入"
+        },
+        "work": {
+          "claimIds": [
+            "603515-Q1-C001",
+            "603515-Q3-C001"
+          ],
+          "text": "提供灯具、光源、控制产品与照明方案"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "claimIds": [
+          "603515-Q2-C001",
+          "603515-Q3-C001"
+        ],
+        "text": "收入表把照明应用产品及其他合并列示，不能据此拆出家居灯具、商用灯具或智能系统各自的收入。"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "citations": [
+        {
+          "excerpt": "家居照明灯具、商用照明灯具、光源及控制类产品",
+          "pdfPage": 10,
+          "section": "业务、经营方式或收入构成（PDF页序10）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "智能照明系统综合解决方案",
+          "pdfPage": 10,
+          "section": "业务、经营方式或收入构成（PDF页序10）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司研发、生产和销售家居灯具、商用灯具、光源及控制类产品，并提供智能照明系统综合解决方案，服务家庭与商业空间。",
+      "claimType": "company_statement",
+      "id": "603515-Q1-C001",
+      "limitations": "产品及用途的描述不代表每种产品都单独列示了收入。",
+      "questionId": "Q1",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "6,970,146,425.51",
+          "pdfPage": 18,
+          "section": "业务、经营方式或收入构成（PDF页序18）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "691,708.77",
+          "pdfPage": 19,
+          "section": "业务、经营方式或收入构成（PDF页序19）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "2025年营业收入合计6970146425.51元；照明应用产品及其他6917087700.00元，以全部营业收入为分母计算占比99.24%。2025年营业收入约69.70亿元，其中照明应用产品及其他约69.17亿元，占99.24%。",
+      "claimType": "calculation",
+      "id": "603515-Q2-C001",
+      "limitations": "主营表以万元列示，换算金额并以全部营业收入计算占比，可能受到原表取整影响；收入占比不代表利润贡献。这里列出的是部分收入项目，并非完整构成，不能把所列项目合计当成全部营业收入。",
+      "questionId": "Q2",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "公司经营模式以经销、直销为主",
+          "pdfPage": 10,
+          "section": "业务、经营方式或收入构成（PDF页序10）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "选择了以自制为主的方式",
+          "pdfPage": 10,
+          "section": "业务、经营方式或收入构成（PDF页序10）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司以经销和直销为主，结合线上线下渠道及海外销售，生产以自制为主，向客户提供照明产品和解决方案。",
+      "claimType": "company_statement",
+      "id": "603515-Q3-C001",
+      "limitations": "智能照明方案不等于单独软件订阅业务；原表没有在该项目中分别披露各产品收入。",
+      "questionId": "Q3",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "code": "603515.SH",
+  "contentTier": "L",
+  "introduction": "销售家居与商用照明，并提供智能照明方案。",
+  "name": "欧普照明",
+  "schema": "atlas-company-overview",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "publishedAt": "2026-04-24",
+      "publisher": "欧普照明股份有限公司（巨潮资讯网）",
+      "reportPeriod": "2025-12-31",
+      "title": "欧普照明股份有限公司2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225168937.PDF"
+    }
+  ],
+  "tagline": "销售家居与商用照明，并提供智能照明方案"
+}

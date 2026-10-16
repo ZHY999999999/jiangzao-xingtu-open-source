@@ -1,0 +1,2 @@
+# Preserve source bytes across operating systems; manifests and build revisions hash them.
+* -text

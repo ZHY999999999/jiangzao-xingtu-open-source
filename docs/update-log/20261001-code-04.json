@@ -1,0 +1,16 @@
+{
+  "id": "20261001-code-04",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T23:03:37+08:00",
+  "summary": "门禁缺口修补：关系数据与概念星场夹具纳入依赖表（缺失标 BLOCKED 而非 FAIL）；版本测试按 PATH 解析 node；ui-04 补捏合缩放验收条目",
+  "version": "1.2.10",
+  "branch": "cursor/gate-fixture-gaps-dd40",
+  "commit": "bad78be",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/4",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；只改脚本与 docs",
+  "next": "按 roadmap 做 ui-03 抽屉信息架构",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

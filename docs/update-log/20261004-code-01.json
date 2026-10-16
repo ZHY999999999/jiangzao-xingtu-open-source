@@ -1,0 +1,44 @@
+{
+  "id": "20261004-code-01",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-04T18:16:23+08:00",
+  "summary": "第一层生意概览与模式图已随 1.2.20 / 7ae37467b4cc 发行完成独立整站及公网验收：内容与候选已验收 3 家、整站已装入 3 家、线上已发布 3 家；保留 14 家七问和 1 份工业富联只读标杆。全索引第一层范围为 5568 家，任务仍在进行。",
+  "version": "1.2.20",
+  "branch": "codex/l1-overview-20261004",
+  "commit": "808bac4",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/15",
+  "validated": "full",
+  "validatedAt": "2026-10-04T18:55:57+08:00",
+  "validatedCommit": "808bac4",
+  "rollback": "20261003T061409435747Z-97ac78b281cf / 1.2.19 / a75161eb50e1",
+  "next": "完成当前源码Git同步后，按所有者最新授权转为行业分批生产、机械全检、独立重点抽检和整批上线；先完成当前有效租约，再最小适配批量流程，不冒称抽检为逐家完整复核。",
+  "data": {
+    "companies": {
+      "snapshotId": "20260926-f6612ceba52c2cbc",
+      "asOf": "20260926",
+      "total": 5569
+    },
+    "evidence": {
+      "tradeDate": "20260918",
+      "membershipAsOf": "20260922",
+      "schemaVersion": 2,
+      "status": "complete"
+    },
+    "market": {
+      "tradeDate": "2026-09-30",
+      "snapshotId": "20260930-29c46fe803519650",
+      "coverage": {
+        "listed": 5572,
+        "missing": 11,
+        "valued": 5561
+      }
+    },
+    "relations": {
+      "files": 2,
+      "asOf": "2026-09-22"
+    }
+  },
+  "releaseId": "20261004T110542309882Z-964a0c25bccd",
+  "amendedAt": "2026-10-04T20:04:27+08:00"
+}

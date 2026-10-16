@@ -1,0 +1,16 @@
+{
+  "id": "20261002-code-01",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-02T00:18:08+08:00",
+  "summary": "ui-05 CSS 拆分与 App.tsx 组件拆分：删除 53 个无引用类的 188 条规则，样式一行一规则，company.css 拆出 company-detail-parts.css，App.tsx 拆为 useAtlasEngine + Sidebar/Toolbar/BoardDrawer/StockDrawer/RelationCard/DataNotes；v1.2.13",
+  "version": "1.2.13",
+  "branch": "cursor/css-split-app-refactor-dd40",
+  "commit": "5a442e4",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/7",
+  "validated": "full",
+  "rollback": "revert 本 PR 提交；或回到 v1.2.12（提交 5cc4b87）",
+  "next": "完整校验与真机点一遍星图交互（下钻、返回、关系卡、复制链接）；之后做 ui-06 全站统一页头",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

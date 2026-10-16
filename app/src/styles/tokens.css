@@ -1,0 +1,66 @@
+/* 设计令牌 —— 全站唯一的颜色、字号、间距、圆角与动效定义。
+
+   页面样式只引用这里的变量，不再各自写一套色值；需要局部调整时覆盖变量本身。
+   首页、市场星图、公司档案三个页面共用同一组令牌，切换页面时不应像换了一个网站。
+
+   色板：明暗两套共用同一组语义名。
+     --bg / --panel / --raised   三层表面，由底到面逐级提亮（暗色）或压暗（亮色）
+     --ink / --muted / --faint   三级文字。--faint 常用于最小字号，因此也要达到 4.5:1 的正文对比度
+                                 （亮色 5.1:1，暗色 5.1:1；在 --raised 上均不低于 4.6:1）
+     --line / --line-soft        分隔线，不用阴影
+     --accent 系列               唯一的强调色：激活态、主行动、链接。--accent-ink 是落在强调色上的文字
+     --warning / --negative      待核提示、负值；--up / --down 为 A 股涨红跌绿
+     --halo                      星图标签描边底色；--overlay-shadow 为侧滑面板的投影
+
+   字号阶梯：xs 是全站下限。元信息、出处编号、状态标签都不得再小。
+     xs 11 · sm 12.5 · md 14 · lg 16 · xl 20 · 2xl 24 · 3xl 30 · 4xl 38 · 5xl 48
+   首页与档案页首屏的展示字号用 clamp() 随视口缩放，不走阶梯。
+
+   间距按 4px 栅格。既有样式里的光学微调值逐步迁移，新样式直接用这组。 */
+
+:root{
+  --fs-xs:11px; --fs-sm:12.5px; --fs-md:14px; --fs-lg:16px; --fs-xl:20px;
+  --fs-2xl:24px; --fs-3xl:30px; --fs-4xl:38px; --fs-5xl:48px;
+
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px; --sp-8:32px; --sp-10:40px;
+  --pad:20px; --gap:14px;
+
+  --r:6px; --r-sm:4px; --r-lg:10px;
+
+  --sans:"Geist Variable", ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mono:"Geist Mono Variable", ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  --ease:cubic-bezier(.22, .7, .2, 1);
+  --fast:.16s var(--ease);
+  --slow:.34s var(--ease);
+
+  /* 由色板派生，两套主题通用 */
+  --reading-ink:color-mix(in srgb,var(--ink) 84%,var(--muted));
+  --warning-soft:color-mix(in srgb,var(--warning) 10%,var(--panel));
+  --backdrop:#05070bd1;
+  --shadow-soft:#0003;
+}
+
+:root,:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f4f4f1; --panel:#fbfbf9; --raised:#ececeb;
+  --ink:#16171a; --muted:#4d5058; --faint:#65686f;
+  --line:#e1e0dc; --line-soft:#eeede9;
+  --accent:#2f62d0; --accent-ink:#fff; --accent-soft:#e7edfa;
+  --warning:#896022; --negative:#965b42;
+  --up:#c82036; --down:#097744;
+  --chart-secondary:#806630;
+  --halo:#fff; --overlay-shadow:#1113;
+}
+
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#050507; --panel:#0a0a0d; --raised:#14141a;
+  --ink:#eceef3; --muted:#a1a5af; --faint:#7b7f8a;
+  --line:#1d1e25; --line-soft:#131419;
+  --accent:#9dc4ff; --accent-ink:#05101f; --accent-soft:#101a2c;
+  --warning:#d7b07a; --negative:#dea082;
+  --up:#f2506e; --down:#1db97a;
+  --chart-secondary:#ab9362;
+  --halo:#000; --overlay-shadow:#0008;
+}

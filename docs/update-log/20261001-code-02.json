@@ -1,0 +1,16 @@
+{
+  "id": "20261001-code-02",
+  "type": "code",
+  "label": "网站代码更新",
+  "recordedAt": "2026-10-01T16:07:36+08:00",
+  "summary": "固定更新框架：docs/update-framework.md 六步运行手册、roadmap.json、update-log/、update_gate.py 门禁、PR 模板；不改网站版本",
+  "version": "1.2.9",
+  "branch": "cursor/update-framework-dd40",
+  "commit": "6f658a5",
+  "pr": "https://github.com/ZHY999999999/jiangzao-xingtu/pull/2",
+  "validated": "full",
+  "rollback": "revert 本 PR 的提交即可；不涉及网站版本与数据",
+  "next": "按 roadmap 做 ui-02 星图移动端单列布局，作为框架的第一次实际走流程",
+  "data": {},
+  "amendedAt": "2026-10-02T00:51:43+08:00"
+}

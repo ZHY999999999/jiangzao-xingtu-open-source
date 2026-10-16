@@ -1,0 +1,158 @@
+{
+  "answers": [
+    {
+      "claimIds": [
+        "688169-Q1-C001"
+      ],
+      "questionId": "Q1",
+      "text": "公司设计、研发、生产和销售智能硬件，核心产品是扫地机器人，也有洗地机、智能割草机、洗烘一体机等。"
+    },
+    {
+      "claimIds": [
+        "688169-Q2-C001"
+      ],
+      "questionId": "Q2",
+      "text": "2025年营业收入约186.95亿元，其中智能扫地机及配件约151.73亿元，占81.16%；其他智能电器产品约35.07亿元，占18.76%。"
+    }
+  ],
+  "asOf": "2026-04-23",
+  "businessModel": {
+    "flows": [
+      {
+        "buyer": {
+          "claimIds": [
+            "688169-Q3-C001"
+          ],
+          "text": "消费者及国内外经销商"
+        },
+        "id": "cleaning",
+        "income": {
+          "claimIds": [
+            "688169-Q2-C001",
+            "688169-Q3-C001"
+          ],
+          "text": "取得硬件及配件销售收入"
+        },
+        "work": {
+          "claimIds": [
+            "688169-Q1-C001",
+            "688169-Q3-C001"
+          ],
+          "text": "通过直营和经销渠道销售智能家用电器"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "claimIds": [
+          "688169-Q2-C001",
+          "688169-Q3-C001"
+        ],
+        "text": "智能扫地机及配件是收入主体，其他智能电器包含多种产品，不能全部视为洗地机或割草机。"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "citations": [
+        {
+          "excerpt": "主要产品包括智能扫地机器人、洗地机、智能割草机及其他智能电器",
+          "pdfPage": 13,
+          "section": "业务、经营方式或收入构成（PDF页序13）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "洗烘一体机",
+          "pdfPage": 15,
+          "section": "业务、经营方式或收入构成（PDF页序15）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司设计、研发、生产和销售智能硬件，核心产品是扫地机器人，也有洗地机、智能割草机、洗烘一体机等。",
+      "claimType": "company_statement",
+      "id": "688169-Q1-C001",
+      "limitations": "产品及用途的描述不代表每种产品都单独列示了收入。",
+      "questionId": "Q1",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "18,694,776,828",
+          "pdfPage": 53,
+          "section": "业务、经营方式或收入构成（PDF页序53）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "15,172,943,325",
+          "pdfPage": 54,
+          "section": "业务、经营方式或收入构成（PDF页序54）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "3,507,381,670",
+          "pdfPage": 54,
+          "section": "业务、经营方式或收入构成（PDF页序54）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "2025年营业收入合计18694776828元；智能扫地机及配件15172943325元，以全部营业收入为分母计算占比81.16%；其他智能电器产品3507381670元，以全部营业收入为分母计算占比18.76%。2025年营业收入约186.95亿元，其中智能扫地机及配件约151.73亿元，占81.16%；其他智能电器产品约35.07亿元，占18.76%。",
+      "claimType": "calculation",
+      "id": "688169-Q2-C001",
+      "limitations": "占比采用所列收入分类，以全部营业收入为分母；收入占比不等于利润贡献。这里列出的是部分收入项目，并非完整构成，不能把所列项目合计当成全部营业收入。",
+      "questionId": "Q2",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "excerpt": "公司采用线上与线下相结合的全渠道营销体系",
+          "pdfPage": 15,
+          "section": "业务、经营方式或收入构成（PDF页序15）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "直营",
+          "pdfPage": 54,
+          "section": "业务、经营方式或收入构成（PDF页序54）",
+          "sourceId": "S1"
+        },
+        {
+          "excerpt": "经销",
+          "pdfPage": 54,
+          "section": "业务、经营方式或收入构成（PDF页序54）",
+          "sourceId": "S1"
+        }
+      ],
+      "claim": "公司采用线上线下全渠道销售，并通过直营与经销两种方式取得产品收入。",
+      "claimType": "company_statement",
+      "id": "688169-Q3-C001",
+      "limitations": "销售给经销商形成的公司收入，不等于经销商最终卖给消费者的零售流水。",
+      "questionId": "Q3",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "code": "688169.SH",
+  "contentTier": "L",
+  "introduction": "以扫地机器人为主，销售洗地机等智能家用电器。",
+  "name": "石头科技",
+  "schema": "atlas-company-overview",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "publishedAt": "2026-04-23",
+      "publisher": "北京石头世纪科技股份有限公司（巨潮资讯网）",
+      "reportPeriod": "2025-12-31",
+      "title": "北京石头世纪科技股份有限公司2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225147552.PDF"
+    }
+  ],
+  "tagline": "以扫地机器人为主，销售洗地机等智能家用电器"
+}

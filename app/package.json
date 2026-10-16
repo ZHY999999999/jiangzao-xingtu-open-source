@@ -1,0 +1,32 @@
+{
+  "name": "knowledge-atlas",
+  "private": true,
+  "version": "1.2.26",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "version:patch": "node scripts/bump-site-version.mjs patch",
+    "version:minor": "node scripts/bump-site-version.mjs minor",
+    "version:major": "node scripts/bump-site-version.mjs major",
+    "data:enrich": "python scripts/enrich-evidence.py",
+    "companies:build": "python scripts/build-company-data.py",
+    "companies:update": "python scripts/check-company-updates.py --publish",
+    "companies:test": "python scripts/test_company_data.py && python scripts/test_company_updates.py"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.48.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}

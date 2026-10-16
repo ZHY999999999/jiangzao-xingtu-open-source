@@ -1,0 +1,29 @@
+{
+  "asOf": "20261006-142913",
+  "sourceVersion": "1.2.26",
+  "publicVersionLastRecorded": "1.2.22",
+  "publicReleaseLastRecorded": "20261004T164201405207Z-6d880be57325",
+  "publicRevisionLastRecorded": "61be615b4be4",
+  "companySnapshot": "20260926-f6612ceba52c2cbc",
+  "companyAsOf": "20260926",
+  "companyCount": 5569,
+  "marketTradeDate": "2026-09-30",
+  "marketCoverage": {
+    "listed": 5572,
+    "missing": 11,
+    "valued": 5561
+  },
+  "companyIncrementalUpdates": "blocked_pending_acceptance",
+  "repositoryRole": "private_code_snapshot_with_separate_local_runtime_bundle",
+  "uploadIsDeployment": false,
+  "rawEvidenceIncluded": false,
+  "privateResearchIncluded": false,
+  "lastUpdateLog": "20261006-code-02",
+  "acceptedSevenQuestionContentCount": 14,
+  "localWholeSiteSevenQuestionCount": 14,
+  "publishedSevenQuestionCount": 14,
+  "legacyReadOnlyBenchmarkCount": 1,
+  "acceptedOverviewContentAndCandidateCount": 55,
+  "localWholeSiteOverviewCount": 55,
+  "publishedOverviewCount": 55
+}

@@ -1,0 +1,22 @@
+.co-overview{min-width:0}
+.co-business{padding:36px 0 26px;border-bottom:1px solid var(--line)}
+.co-business>header{margin-bottom:26px}
+.company-library .co-business h2,.company-library .co-continue h2{font-size:var(--fs-xl);font-weight:500;line-height:1.45;margin:7px 0 0}
+.co-flow-legend{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;margin-bottom:12px;color:var(--muted);font-size:var(--fs-md)}
+.co-flow-legend>span{display:flex;align-items:center;gap:9px}
+.co-flows{list-style:none;padding:0;margin:0;display:grid;gap:16px}
+.co-flow{display:grid;grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr) 22px minmax(0,1fr);align-items:stretch;gap:8px}
+.co-flow-cell{padding:20px 18px;border:1px solid var(--line);border-radius:12px;background:var(--cr-surface,var(--panel));min-width:0}
+.company-library .co-flow-cell h3{font-size:var(--fs-sm);color:var(--muted);font-weight:500;line-height:1.5;margin:0 0 10px}
+.company-library .co-flow-cell p{font-size:var(--fs-md);line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.co-flow-income{background:color-mix(in srgb,var(--accent) 7%,var(--cr-surface,var(--panel)));border-color:color-mix(in srgb,var(--accent) 26%,var(--line))}
+.co-flow-arrow{align-self:center;color:var(--muted)}
+.co-model-note{font-size:var(--fs-md);color:var(--muted);line-height:1.8;margin:18px 0 0}
+.co-continue{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:30px 0;margin:8px 0}
+.company-library .co-continue p{font-size:var(--fs-md);line-height:1.8;color:var(--muted);margin:12px 0 0}
+.co-continue-actions{display:flex;flex-direction:column;align-items:flex-start;gap:14px;flex-shrink:0}
+.co-continue-actions a{display:inline-flex;align-items:center;gap:9px;font-size:var(--fs-md);color:var(--accent);line-height:1.6}
+.co-continue-actions .co-primary-action{padding:10px 16px;border-radius:8px;border:1px solid var(--line);background:var(--cr-surface,var(--panel))}
+.co-continue-actions a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.co-deep{scroll-margin-top:100px}
+@media(max-width:760px){.co-flow-legend{display:none}.co-flow{grid-template-columns:minmax(0,1fr);gap:7px;padding-bottom:10px}.co-flow-cell{padding:16px 18px}.co-flow-arrow{justify-self:center;transform:rotate(90deg)}.co-business{padding-top:28px}.co-continue{display:block}.co-continue-actions{margin-top:20px}.co-flows{gap:25px}}

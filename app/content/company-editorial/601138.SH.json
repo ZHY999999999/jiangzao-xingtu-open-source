@@ -1,0 +1,1366 @@
+{
+  "schemaVersion": "company-editorial-candidate-v1",
+  "code": "601138.SH",
+  "name": "工业富联",
+  "status": "reviewed_editorial",
+  "createdAt": "2026-09-28",
+  "reportBasis": "2025完整年度；经营形态补核2026半年度。收入构成仍采用2025年度。",
+  "tagline": "给企业造服务器，也造连接设备的硬件",
+  "introduction": "服务器负责计算，存储设备保存数据，网络设备让数据流通。工业富联为企业客户研发和制造这些硬件，也生产手机等终端里的精密结构零件。",
+  "introductionSourceIds": [
+    "fii25-customers",
+    "fii25-business",
+    "fii25-segments"
+  ],
+  "readerTakeaway": "认识产品和客户，再看收入、利润与现金。",
+  "customers": [
+    {
+      "name": "云服务商、互联网服务商",
+      "purpose": "建设或扩充数据中心，需要处理计算任务、保存数据的服务器及存储设备。",
+      "sourceIds": [
+        "fii25-customers"
+      ]
+    },
+    {
+      "name": "科技品牌和通信设备品牌商",
+      "purpose": "将产品方案落实为可批量交付的硬件；合作可包含联合设计、制造和供应链服务。",
+      "sourceIds": [
+        "fii25-business"
+      ]
+    },
+    {
+      "name": "电信、有线电视运营商及企业客户",
+      "purpose": "建设网络、云与边缘计算设施，需要通信和计算设备。",
+      "sourceIds": [
+        "fii25-customers"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "服务器与存储设备",
+      "purpose": "服务器负责计算，存储设备保存数据；其中AI服务器面向人工智能计算需求。",
+      "business": "云计算",
+      "sourceIds": [
+        "fii25-customers",
+        "fii25-business"
+      ]
+    },
+    {
+      "name": "交换机与路由器",
+      "purpose": "让数据在设备和网络之间传输；高速交换机用于连接数据中心里的大量计算设备。",
+      "business": "通信及移动网络设备",
+      "sourceIds": [
+        "fii25-business"
+      ]
+    },
+    {
+      "name": "精密机构件",
+      "purpose": "为智能手机、通信及云设备提供按要求制造的结构零部件。",
+      "business": "通信及移动网络设备等",
+      "sourceIds": [
+        "fii25-business",
+        "fii25-segments"
+      ]
+    },
+    {
+      "name": "工厂数字化与智能制造服务",
+      "purpose": "把自身制造中积累的方法用于工厂的流程和生产改善；2025年对外项目涉及家电、汽车零部件、医药、新能源等行业。",
+      "business": "工业互联网",
+      "sourceIds": [
+        "fii25-business"
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "先确定要做什么",
+      "text": "与客户围绕产品需求、设计和订单协作。公司披露了联合设计和新品研发合作。",
+      "kind": "company_statement",
+      "sourceIds": [
+        "fii25-business"
+      ]
+    },
+    {
+      "title": "把材料与产能组织起来",
+      "text": "采购零组件和材料，安排制造资源，再进行生产与系统整合。2025年成本表显示，材料是最主要的成本。",
+      "kind": "plain_language_synthesis",
+      "sourceIds": [
+        "fii25-business",
+        "fii25-costs"
+      ]
+    },
+    {
+      "title": "按合同交付产品",
+      "text": "合同可能约定交给指定承运人、送到指定地点并确认接收，或完成相应出口和装船手续。不同交易的交付条件不同。",
+      "kind": "filing_fact",
+      "sourceIds": [
+        "fii25-delivery"
+      ]
+    },
+    {
+      "title": "确认收入，再看钱何时收到",
+      "text": "产品控制权按合同条件转移时确认收入；客户可有信用期，所以确认收入和收到现金可能不在同一天。年报未披露适用于所有客户的统一账期。",
+      "kind": "filing_fact_with_explanation",
+      "sourceIds": [
+        "fii25-delivery"
+      ]
+    }
+  ],
+  "paymentExplanation": "大部分主营收入来自产品销售，也有加工服务。不能把整家公司的营业收入都理解成只收一笔加工费；材料、制造和交付成本同样进入这门生意的账。",
+  "paymentSourceIds": [
+    "fii25-delivery",
+    "fii25-costs"
+  ],
+  "costs": [
+    {
+      "title": "材料是最大头",
+      "text": "2025年，直接材料占3C电子产品成本92.50%。原材料包括电路板、集成电路、其他零组件，以及玻璃、金属、塑料等。",
+      "metric": "92.50%",
+      "sourceIds": [
+        "fii25-costs",
+        "fii25-risk"
+      ]
+    },
+    {
+      "title": "制造也要持续投入",
+      "text": "人工、辅料、设备折旧摊销、水电和其他制造费用构成其余成本。直接人工占该成本表2.19%。",
+      "sourceIds": [
+        "fii25-costs"
+      ]
+    },
+    {
+      "title": "毛利之后还有费用",
+      "text": "卖产品的收入扣除营业成本得到毛利，但研发、管理、销售等费用还需承担。2025年研发费用约111.51亿元。",
+      "sourceIds": [
+        "fii25-costs"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "title": "客户的采购节奏",
+      "text": "2025年前五名客户贡献62.01%的销售额。大客户订单的时间与规模会影响生产安排；年报没有公开这五家客户的名称。",
+      "sourceIds": [
+        "fii25-concentration"
+      ]
+    },
+    {
+      "title": "材料供应和价格",
+      "text": "材料成本占比高。若采购价格上涨却来不及向下游传递，会压缩毛利空间；2025年前五名供应商占采购总额58.36%。",
+      "sourceIds": [
+        "fii25-costs",
+        "fii25-concentration",
+        "fii25-risk"
+      ]
+    },
+    {
+      "title": "新产品与跨国交付",
+      "text": "硬件更新快，生产和研发需要跟上客户要求；跨国业务同时受到贸易规则、汇率和地缘变化影响。",
+      "sourceIds": [
+        "fii25-risk"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2015-03-06",
+      "title": "当前法律主体设立",
+      "text": "公司在深圳注册成立。这个日期描述法律主体，不代表所有相关业务都从这一天开始。",
+      "sourceIds": [
+        "fii25-history"
+      ]
+    },
+    {
+      "date": "2017",
+      "title": "形成上市主体的业务基础",
+      "text": "2017年完成股份制改造及重组，鸿海旗下部分通信网络设备、云服务设备、精密工具和工业机器人业务转入公司。",
+      "sourceIds": [
+        "fii25-history"
+      ]
+    },
+    {
+      "date": "2018-06-08",
+      "title": "在上海证券交易所上市",
+      "text": "公司首次公开发行A股后开始上市交易。",
+      "sourceIds": [
+        "fii25-history"
+      ]
+    },
+    {
+      "date": "2025",
+      "title": "云计算成为更大的收入来源",
+      "text": "云计算业务收入同比增长88.70%，约占全年收入三分之二。公司披露，AI相关业务占比提高。",
+      "sourceIds": [
+        "fii25-business",
+        "fii25-segments"
+      ]
+    }
+  ],
+  "revenueMix": {
+    "period": "20251231",
+    "currency": "CNY",
+    "denominator": 902887188000,
+    "denominatorLabel": "2025年全部营业收入",
+    "unit": "元",
+    "items": [
+      {
+        "name": "云计算",
+        "revenue": 602678703000,
+        "share": 0.6675016668859853,
+        "shareDisplay": "66.75%",
+        "sourceIds": [
+          "fii25-segments",
+          "fii26-segment-scope"
+        ],
+        "readerLabel": "服务器、存储等硬件与方案"
+      },
+      {
+        "name": "通信及移动网络设备",
+        "revenue": 297851348000,
+        "share": 0.32988766698503647,
+        "shareDisplay": "32.99%",
+        "sourceIds": [
+          "fii25-segments"
+        ],
+        "readerLabel": "网络设备与精密机构件等"
+      },
+      {
+        "name": "工业互联网",
+        "revenue": 693951000,
+        "share": 0.0007685910368682737,
+        "shareDisplay": "0.08%",
+        "sourceIds": [
+          "fii25-segments"
+        ]
+      },
+      {
+        "name": "其他业务",
+        "revenue": 1663186000,
+        "share": 0.001842075092109957,
+        "shareDisplay": "0.18%",
+        "sourceIds": [
+          "fii25-segments"
+        ]
+      }
+    ],
+    "explanation": "每100元收入，约67元来自云计算业务，约33元来自通信及移动网络设备。云计算业务包含服务器、存储等产品，不全是AI服务器。",
+    "calculationNote": "份额为各项营业收入除以全年营业收入。本图仅含三个主营行业及其他业务，不把汇总行再次加进去。",
+    "periodNote": "2026中报未披露同粒度的分部金额，构成采用2025年度。"
+  },
+  "financeNotes": [
+    {
+      "title": "收入和利润一起扩大",
+      "period": "20251231",
+      "text": "2025年营业收入9028.87亿元，同比增长48.22%；归母净利润352.86亿元，同比增长51.99%。这些是全年累计值。",
+      "meaning": "公司一年交付的业务规模和归属于母公司股东的利润都增长了。",
+      "boundary": "两者的增长不能单独说明每一种产品都增长，也不能证明每一笔订单都更赚钱。",
+      "sourceIds": [
+        "fii25-financials"
+      ]
+    },
+    {
+      "title": "增长主要看云计算这一块",
+      "period": "20251231",
+      "text": "云计算收入同比增长88.70%；通信及移动网络设备增长3.46%；工业互联网下降26.15%。",
+      "meaning": "同一家公司里的业务并非同速增长。公司披露AI相关业务占比提升，是云计算变化的重要背景。",
+      "boundary": "“云计算”包含多种产品，不能把整个分部收入都算成AI服务器收入。",
+      "sourceIds": [
+        "fii25-segments",
+        "fii25-business"
+      ]
+    },
+    {
+      "title": "利润增加，经营现金流却减少",
+      "period": "20251231",
+      "text": "2025年经营现金流净额52.38亿元，上年为238.20亿元；归母净利润则从232.16亿元增至352.86亿元。",
+      "meaning": "公司披露备货增加；下方按合并现金流补充资料，进一步拆开存货、应收和应付的调节作用。",
+      "boundary": "公司归因与报表复算分别展示。现金流减少不等于账上没有钱，营运资金调节也不能全部归为一种产品的备货。",
+      "sourceIds": [
+        "fii25-financials",
+        "fii25-cash-bridge"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fii25-customers",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第7页，第一节释义：云计算",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "披露云计算业务服务的客户类型及服务器、存储等设备范围。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第7页，第一节释义：云计算",
+      "document": "披露云计算业务服务的客户类型及服务器、存储等设备范围。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-business",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第14–16页，第三节：业务情况、经营讨论与核心竞争力",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "披露AI服务器、高速交换机、路由器、终端精密机构件、液冷散热研发以及联合设计、全球制造与供应链能力。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第14–16页，第三节：业务情况、经营讨论与核心竞争力",
+      "document": "披露AI服务器、高速交换机、路由器、终端精密机构件、液冷散热研发以及联合设计、全球制造与供应链能力。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-financials",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第9–10页，主要会计数据及变动说明；第17页，主要经营情况",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "核对2025与2024年度营业收入、归母净利润和经营现金流；公司将现金流下降主要解释为备货增加。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第9–10页，主要会计数据及变动说明；第17页，主要经营情况",
+      "document": "核对2025与2024年度营业收入、归母净利润和经营现金流；公司将现金流下降主要解释为备货增加。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-segments",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第18页，主营业务分行业情况；第201页，营业收入和营业成本",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "核对三个主营行业及其他业务收入，四项合计与营业收入相等。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": true,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第18页，主营业务分行业情况；第201页，营业收入和营业成本",
+      "document": "核对三个主营行业及其他业务收入，四项合计与营业收入相等。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-costs",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第19页，成本分析表；第20页，期间费用",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "核对3C电子产品成本的材料、人工、辅料、折旧摊销、水电及其他制造费用比例；另列研发等期间费用。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": true,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第19页，成本分析表；第20页，期间费用",
+      "document": "核对3C电子产品成本的材料、人工、辅料、折旧摊销、水电及其他制造费用比例；另列研发等期间费用。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-concentration",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第20页，主要销售客户及主要供应商情况；第30页，豁免披露说明",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "前五客户占年度销售62.01%，前五供应商占年度采购58.36%；相关名称因商业秘密豁免披露。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第20页，主要销售客户及主要供应商情况；第30页，豁免披露说明",
+      "document": "前五客户占年度销售62.01%，前五供应商占年度采购58.36%；相关名称因商业秘密豁免披露。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-delivery",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第110–111页，关键审计事项：销售产品收入确认；第146页，收入会计政策",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "根据合同约定的不同交付条件确认产品销售收入；信用期依据客户风险确定，另有加工服务收入。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第110–111页，关键审计事项：销售产品收入确认；第146页，收入会计政策",
+      "document": "根据合同约定的不同交付条件确认产品销售收入；信用期依据客户风险确定，另有加工服务收入。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-history",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第131页，财务报表附注：公司基本情况",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "核对2015年法律主体设立、2017年业务重组及2018年6月8日上市的时间和事项。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第131页，财务报表附注：公司基本情况",
+      "document": "核对2015年法律主体设立、2017年业务重组及2018年6月8日上市的时间和事项。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-risk",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第29–30页，可能面对的风险",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-27",
+      "excerpt": "披露技术迭代、国际贸易与地缘变化、汇率和主要原材料价格波动等经营风险。",
+      "excerptType": "核读摘要，非逐字引文",
+      "visualVerified": false,
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "locator": "第29–30页，可能面对的风险",
+      "document": "披露技术迭代、国际贸易与地缘变化、汇率和主要原材料价格波动等经营风险。",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-catalogue",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第18–19页，产销量情况分析表及说明",
+      "locator": "第18–19页，产销量情况分析表及说明",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "八类产品同时包含整机及零组件；数量不可直接换算成收入。工业机器人项目含周边设备、结构件。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-buy-sell",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第149–150页，收入确认关键判断与产品质量保证",
+      "locator": "第149–150页，收入确认关键判断与产品质量保证",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "部分客户同时供应原材料；公司披露自己是主要责任人，按销售对价总额确认收入。采购与销售订单不对应，部分产品有售后修理或更换义务。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii26-buy-sell",
+      "title": "工业富联2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468066.PDF",
+      "reportPeriod": "20260630",
+      "publishedAt": "20260812",
+      "pageSection": "第111–112页，收入确认关键判断与产品质量保证",
+      "locator": "第111–112页，收入确认关键判断与产品质量保证",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "中报继续披露Buy and Sell模式、主要责任人判断以及产品质量保证；不代表全部业务都按这一模式开展。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20260630"
+    },
+    {
+      "id": "fii26-business",
+      "title": "工业富联2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468066.PDF",
+      "reportPeriod": "20260630",
+      "publishedAt": "20260812",
+      "pageSection": "第9–10页，主营业务情况与经营讨论",
+      "locator": "第9–10页，主营业务情况与经营讨论",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "公司披露整机柜设计、液冷散热、电源管理，以及高速网络产品和CPO全光交换机样机交货。能力描述为公司自述，样机不等于量产。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20260630"
+    },
+    {
+      "id": "fii26-segment-scope",
+      "title": "工业富联2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468066.PDF",
+      "reportPeriod": "20260630",
+      "publishedAt": "20260812",
+      "pageSection": "第159–160页，营业收入和营业成本；第208页，分部信息",
+      "locator": "第159–160页，营业收入和营业成本；第208页，分部信息",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "中报有主营及其他业务收入成本，但未呈列与年度云计算、通信等相同粒度的分部金额。分部附注解释收入及业绩超过90%源自电子产品业务。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20260630"
+    },
+    {
+      "id": "fii25-research-cost",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第203页，研发费用明细",
+      "locator": "第203页，研发费用明细",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "研发费用中的职工薪酬、物料消耗及加工费等实际项目，不能据此推出单一产品研发成本。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-investment",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第122页，合并现金流量表；第180页，在建工程",
+      "locator": "第122页，合并现金流量表；第180页，在建工程",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "购建长期资产现金支出与在建工程期末余额分开；在建工程按云计算、通信及移动网络设备、工业互联网列示。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii26-investment",
+      "title": "工业富联2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468066.PDF",
+      "reportPeriod": "20260630",
+      "publishedAt": "20260812",
+      "pageSection": "第141–142页，在建工程",
+      "locator": "第141–142页，在建工程",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "截至2026年6月末云计算在建工程余额85.80亿元；余额不是当期现金支出，也不等于新增收入。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20260630"
+    },
+    {
+      "id": "fii25-working-capital",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第157–158页，应收账款；第169–170页，存货；第189页，应付账款",
+      "locator": "第157–158页，应收账款；第169–170页，存货；第189页，应付账款",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "分开读取存货账面余额、跌价准备与账面价值，以及应收账款、应付账款的期末余额。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "fii25-cash-bridge",
+      "title": "工业富联2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004420.PDF",
+      "reportPeriod": "20251231",
+      "publishedAt": "20260311",
+      "pageSection": "第210–211页，现金流量表补充资料",
+      "locator": "第210–211页，现金流量表补充资料",
+      "verificationLevel": 3,
+      "verificationLabel": "已核对相关原文",
+      "verifiedAt": "2026-09-28",
+      "sourceType": "filing",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "以合并净利润为起点调节至经营现金流；存货、经营性应收、经营性应付采用补充资料原行，不用资产负债表期末差额替代。",
+      "excerptType": "核读摘要，非逐字引文",
+      "asOf": "20251231"
+    },
+    {
+      "id": "industry-ocp-cooling",
+      "title": "OCP 冷板液冷公开技术文件",
+      "url": "https://www.opencompute.org/w/index.php?title=Cooling_Environments/Cold_Plate",
+      "pageSection": "Accepted Contributions：冷板、冷却回路及连接器规范",
+      "locator": "Accepted Contributions：冷板、冷却回路及连接器规范",
+      "verificationLevel": 3,
+      "verifiedAt": "2026-09-28",
+      "sourceType": "official",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "官方项目页列出冷板、冷却回路、手动及盲插连接器技术文件；不代表本公司已符合或通过认证。",
+      "excerptType": "核读摘要，非逐字引文"
+    },
+    {
+      "id": "industry-ieee-ethernet",
+      "title": "IEEE P802.3dj 以太网项目",
+      "url": "https://www.ieee802.org/3/dj/",
+      "pageSection": "项目范围：200G、400G、800G与1.6T以太网",
+      "locator": "项目范围：200G、400G、800G与1.6T以太网",
+      "verificationLevel": 3,
+      "verifiedAt": "2026-09-28",
+      "sourceType": "official",
+      "accessStatus": "ok",
+      "available": true,
+      "excerpt": "项目覆盖多种以太网速率，仅作为技术迭代背景；不代表公司产品认证、订单或量产。",
+      "excerptType": "核读摘要，非逐字引文"
+    }
+  ],
+  "evidenceGaps": [
+    "已核2025年报和2026中报没有给出覆盖所有订单的生产周期、交期、验收期或合同账期；不同订单不套统一天数。",
+    "Buy and Sell为部分业务，已披露主要责任人及总额法依据；该模式的占比、逐产品范围与具体材料定价仍待补充。",
+    "2026中报有主营/其他收入，但没有与2025年度云计算、通信等相同粒度的分部绝对金额；概览保留2025年结构。",
+    "材料、存货与交付层级没有完整对应到各业务的拆分，不把全公司数字直接分配到AI服务器。",
+    "已披露产品质量保证和售后修理/更换义务；逐产品保修期限、现场安装与持续运维范围尚待补充。",
+    "公司自述的市场地位、技术能力不等于独立竞争优势结论；本页不采用未核实的客户实名或行业排名。"
+  ],
+  "audio": {
+    "url": "/audio/companies/601138/overview-2025-126c06fcdd07.mp3",
+    "transcript": "工业富联，是一家给企业制造电子硬件的公司。把数据中心想成一间装满计算设备的机房：服务器负责计算，存储设备保存数据，交换机让设备之间传输数据。工业富联就做这些产品，也做手机等终端里的精密结构零件。\n\n先看它主要靠什么做生意。按二〇二五年全年的收入，服务器、存储等产品所在的云计算业务，贡献了大约三分之二。第二块是通信及移动网络设备，里面有交换机、路由器和精密机构件，贡献约三分之一。这两块撑起了公司的绝大部分收入。\n\n谁会买？云服务商和互联网企业建设数据中心，需要计算和存储设备。通信设备品牌商需要把产品方案做成可以批量交付的设备。工业富联参与这些客户的联合设计，采购和组织零组件，再完成制造与系统整合，让产品达到约定的交付要求。\n\n钱怎么赚？大部分主营收入来自销售产品。产品销售收入需要覆盖材料、人工、设备使用等成本，以及研发和管理等费用。其中，材料是最主要的成本。对这门生意来说，接到订单之后，能不能把材料备齐、把产品按要求做出来并交付，都影响经营结果。\n\n所以，它在产业链里的位置，是连接零组件供应和企业设备需求的制造与整合环节。公司披露在多个国家布局生产，并与客户一起研发和验证产品。不过，公司业务跨越多个领域，现有资料还不足以给它一个可靠的行业名次。\n\n那它赚不赚钱？二〇二五年是盈利的。全年归属于母公司股东的净利润约三百五十三亿元，比上年增长约一半。用全年收入作分母，相当于每一百元收入对应约三点九元这样的净利润；这是全公司的年度结果。收入增长主要来自云计算业务，公司披露其中人工智能相关业务的占比提高。\n\n但利润增长时，经营活动带来的净现金流反而减少了。公司解释，主要是客户需求增长，备货增加。也就是说，扩大生意还要先把一部分钱放进材料和货物里，交付后也要看货款何时收回。\n\n记住工业富联：主要给企业做服务器、存储和网络相关硬件，通过设计协作、组织生产和交付获得收入。二〇二五年，它的利润在增长。这门生意依赖企业客户持续采购设备，也需要管理好备货和收款。",
+    "sourceIds": [
+      "fii25-customers",
+      "fii25-business",
+      "fii25-segments",
+      "fii25-delivery",
+      "fii25-costs",
+      "fii25-financials",
+      "fii25-risk"
+    ],
+    "contentVersion": "601138-2025-narration-126c06fcdd07",
+    "durationSeconds": 169.758125
+  },
+  "businessStudy": {
+    "asOf": "2026-09-28",
+    "intro": "先看收入规模最大的两条业务：2025年报说明客户与产品，2026中报补充更具体的交付形态。每条业务里的不同产品，并不一定采用相同合同和生产流程。",
+    "lanes": [
+      {
+        "id": "compute",
+        "title": "服务器与存储",
+        "period": "2025年度 · 补充2026中报",
+        "headline": "从服务器和零组件，到机柜层面的整合",
+        "facts": [
+          {
+            "label": "客户需要什么",
+            "text": "云服务商、互联网服务商、电信运营商等需要计算和存储设备。客户购买的是硬件与技术方案，而不是面向个人的云服务会员。",
+            "sourceIds": [
+              "fii25-customers"
+            ]
+          },
+          {
+            "label": "交付到什么程度",
+            "text": "产品包括服务器及零组件、存储设备及零组件。2026中报进一步披露AI机柜出货，以及整机柜设计、液冷散热和电源管理。",
+            "sourceIds": [
+              "fii25-catalogue",
+              "fii26-business"
+            ]
+          },
+          {
+            "label": "公司具体做什么",
+            "text": "公司披露与客户开展联合设计，并进行制造与系统整合。以机柜为例，披露涉及整机柜设计、散热和供电等环节，已超出单个机箱的描述。",
+            "sourceIds": [
+              "fii25-business",
+              "fii26-business"
+            ]
+          },
+          {
+            "label": "理解到哪里为止",
+            "text": "公司没有在这两份报告中把不同交付层级的收入逐一拆开。不能把整个云计算分部都理解为AI服务器，也不能把所有项目都写成公司独立设计。",
+            "sourceIds": [
+              "fii25-segments",
+              "fii26-business"
+            ]
+          }
+        ],
+        "reader": {
+          "headline": "为数据中心提供计算和存储硬件",
+          "customer": {
+            "text": "云服务商、互联网企业等，需要设备来运行软件、处理计算任务和保存数据。",
+            "sourceIds": [
+              "fii25-customers"
+            ]
+          },
+          "delivery": {
+            "text": "服务器、存储设备及零组件；部分业务已交付整套AI机柜。",
+            "sourceIds": [
+              "fii25-catalogue",
+              "fii26-business"
+            ]
+          },
+          "work": {
+            "text": "与客户联合设计，组织制造，并把计算、散热和供电等环节整合起来。",
+            "sourceIds": [
+              "fii25-business",
+              "fii26-business"
+            ]
+          }
+        }
+      },
+      {
+        "id": "network",
+        "title": "网络设备与精密机构件",
+        "period": "2025年度 · 补充2026中报",
+        "headline": "一部分连接数据，另一部分构成终端硬件",
+        "facts": [
+          {
+            "label": "客户需要什么",
+            "text": "通信设备品牌商需要把网络产品交付给客户；终端产品还需要符合设计要求的精密机构件。公司披露了高速交换机、路由器和终端精密机构件业务。",
+            "sourceIds": [
+              "fii25-business"
+            ]
+          },
+          {
+            "label": "具体产品是什么",
+            "text": "2026中报提及800G以上数据中心交换机、SuperNIC网卡，以及Ethernet、InfiniBand、NVLink Switch等产品技术路线；同时继续经营终端精密机构件。",
+            "sourceIds": [
+              "fii26-business"
+            ]
+          },
+          {
+            "label": "怎样跟着客户变化",
+            "text": "年报披露与客户共同开展技术研发和产品验证。中报披露CPO全光交换机已实现样机交货，这说明产品推进到的阶段，不能直接写成已量产。",
+            "sourceIds": [
+              "fii25-business",
+              "fii26-business"
+            ]
+          },
+          {
+            "label": "理解到哪里为止",
+            "text": "交换机和精密机构件同处一个较大的披露板块，用途与制造要求却不同。报告没有提供每类产品的收入比例、统一交期或逐项验收条件。",
+            "sourceIds": [
+              "fii25-business",
+              "fii25-segments",
+              "fii26-business"
+            ]
+          }
+        ],
+        "reader": {
+          "headline": "让设备连成网络，也为终端提供结构零件",
+          "customer": {
+            "text": "通信设备品牌商等需要批量制造网络设备；手机等终端产品需要符合设计要求的精密结构零件。",
+            "sourceIds": [
+              "fii25-business"
+            ]
+          },
+          "delivery": {
+            "text": "交换机、路由器，以及通信和手机等终端的精密机构件。",
+            "sourceIds": [
+              "fii25-business",
+              "fii25-catalogue"
+            ]
+          },
+          "work": {
+            "text": "参与新品研发和验证，再按产品要求制造、交付。样机交货不等于已批量生产。",
+            "sourceIds": [
+              "fii25-business",
+              "fii26-business"
+            ]
+          }
+        }
+      }
+    ],
+    "catalogue": {
+      "items": [
+        "网络设备",
+        "电信设备",
+        "通信网络设备高精密机构件",
+        "服务器及零组件",
+        "存储设备及零组件",
+        "云服务设备高精密机构件",
+        "精密工具",
+        "工业机器人（含周边设备、结构件）"
+      ],
+      "note": "这是2025年报产销量表的原始品类，不另行推断分部归属。整机与零组件混在品类内、单价差异大，台数或件数不能直接换成收入。工业互联网业务另见收入构成及原始资料。",
+      "sourceIds": [
+        "fii25-catalogue"
+      ]
+    },
+    "materials": {
+      "text": "公司列出的主要投入包括印制电路板（PCB）、集成电路（IC）、其他零组件、玻璃、金属和塑料。这是公司整体材料清单，报告没有把每种材料分配到服务器、交换机等具体产品，也没有披露各材料的成本比例。",
+      "sourceIds": [
+        "fii25-risk"
+      ]
+    },
+    "trade": {
+      "intro": "年报和中报披露了部分业务的 Buy and Sell 模式：同一家客户，也可能向公司出售部分原材料。下面区分原料采购、产品交付与收款，不能套成所有订单的统一流程。",
+      "steps": [
+        {
+          "title": "组织材料",
+          "text": "在这部分业务中，公司会向客户采购原材料，也向客户销售产品；两类订单没有一一对应关系。公司披露自己承担主要责任、产品主要风险和报酬，并可独立协商最终售价，因此按产品销售对价总额确认收入。",
+          "sourceIds": [
+            "fii25-buy-sell",
+            "fii26-buy-sell"
+          ],
+          "reader": {
+            "text": "采购零组件和材料；部分业务也向客户采购原料，同时向其销售产品，两类订单不一一对应。",
+            "sourceIds": [
+              "fii25-buy-sell",
+              "fii26-buy-sell"
+            ]
+          }
+        },
+        {
+          "title": "制造并交付",
+          "text": "境内销售可约定交给指定承运人，或送达约定地点并由客户确认接收；境外销售按合同约定报关装船或送达。公司还对部分通信、云计算产品承担约定期间的售后修理或更换义务。",
+          "sourceIds": [
+            "fii25-delivery",
+            "fii25-buy-sell",
+            "fii26-buy-sell"
+          ],
+          "reader": {
+            "text": "按客户要求把产品做出来，依合同送达或交给承运人，承担约定的质量责任。",
+            "sourceIds": [
+              "fii25-delivery",
+              "fii25-buy-sell"
+            ]
+          }
+        },
+        {
+          "title": "取得收入与收款",
+          "text": "满足合同约定的销售实现条件后确认收入；客户信用期根据其信用风险确定，公司也存在预收形成的合同负债。因此，收入确认和现金收回不能当成同一个时点。加工服务另按完成进度确认收入。",
+          "sourceIds": [
+            "fii25-delivery"
+          ],
+          "reader": {
+            "text": "产品销售按合同条件确认收入，货款依约收取；两者不一定同时发生。",
+            "sourceIds": [
+              "fii25-delivery"
+            ]
+          }
+        }
+      ],
+      "gap": "已核报告没有给出适用于所有订单的生产天数、交期、验收期或账期。Buy and Sell的业务占比及逐产品适用范围仍待补充；应收周转天数不能代替合同账期。"
+    },
+    "spending": [
+      {
+        "title": "材料与制造成本",
+        "period": "2025年度",
+        "metric": "92.50%",
+        "metricLabel": "直接材料 / 3C电子产品成本",
+        "text": "这一比例来自财报的“3C电子产品成本”表。材料是这张成本表的最大项，但不能据此得出服务器、GPU或单个机柜的成本构成。",
+        "sourceIds": [
+          "fii25-costs"
+        ],
+        "rows": [
+          {
+            "label": "3C电子产品成本合计",
+            "value": "8,387.18亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "其中：直接材料",
+            "value": "7,757.95亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "直接人工",
+            "value": "183.75亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "辅料",
+            "value": "88.50亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "折旧与摊销",
+            "value": "57.65亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "水电",
+            "value": "29.86亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "其他制造费用",
+            "value": "269.46亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          }
+        ],
+        "note": "上述六项组成3C电子产品成本。直接材料 / 全年营业收入约85.92%，与92.50%的分母不同；费用和长期投入另列，不能加进这张构成表。",
+        "reader": {
+          "kind": "cost",
+          "answer": {
+            "text": "材料是制造成本的最大部分。电路板、芯片和其他零组件等进入产品。",
+            "sourceIds": [
+              "fii25-costs",
+              "fii25-risk"
+            ]
+          },
+          "composition": {
+            "basis": "2025年度 · 3C电子产品成本，不是营业收入",
+            "segments": [
+              {
+                "label": "直接材料",
+                "ratio": 92.5,
+                "sourceIds": [
+                  "fii25-costs"
+                ]
+              },
+              {
+                "label": "人工、辅料等其他制造成本",
+                "ratio": 7.5,
+                "sourceIds": [
+                  "fii25-costs"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "研发及日常经营费用",
+        "period": "2025年度",
+        "metric": "111.51亿元",
+        "metricLabel": "研发费用 · 全公司口径",
+        "text": "研发并不只是一项抽象的技术投入：附注列有研发人员薪酬、物料消耗及加工、技术服务费等具体支出。销售、管理和财务费用承担不同的经营职能。",
+        "sourceIds": [
+          "fii25-costs",
+          "fii25-research-cost"
+        ],
+        "rows": [
+          {
+            "label": "研发费用中的职工薪酬",
+            "value": "68.95亿元",
+            "sourceIds": [
+              "fii25-research-cost"
+            ]
+          },
+          {
+            "label": "研发费用中的物料消耗及加工费",
+            "value": "21.24亿元",
+            "sourceIds": [
+              "fii25-research-cost"
+            ]
+          },
+          {
+            "label": "销售费用",
+            "value": "11.93亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "管理费用",
+            "value": "59.84亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          },
+          {
+            "label": "财务费用",
+            "value": "16.73亿元",
+            "sourceIds": [
+              "fii25-costs"
+            ]
+          }
+        ],
+        "note": "研发两项是111.51亿元的部分构成，其余三行是另列费用；这里不是可相加的支出总表。毛利扣除费用后仍需考虑其他损益和税费，不能直接等同归母净利润。",
+        "reader": {
+          "kind": "expense",
+          "answer": {
+            "text": "研发要支付人员薪酬、材料试制和技术服务等费用。",
+            "sourceIds": [
+              "fii25-research-cost"
+            ]
+          }
+        }
+      },
+      {
+        "title": "建设长期使用的能力",
+        "period": "2025年度 / 年末",
+        "metric": "172.30亿元",
+        "metricLabel": "购建长期资产支付的现金",
+        "text": "厂房、设备等投入会在以后期间继续使用。年末尚在建设的项目另列“在建工程”，财报把它们对应到云计算、通信及工业互联网业务。",
+        "sourceIds": [
+          "fii25-investment"
+        ],
+        "rows": [
+          {
+            "label": "年末在建工程：云计算",
+            "value": "60.25亿元",
+            "sourceIds": [
+              "fii25-investment"
+            ]
+          },
+          {
+            "label": "年末在建工程：通信及移动网络设备",
+            "value": "17.50亿元",
+            "sourceIds": [
+              "fii25-investment"
+            ]
+          },
+          {
+            "label": "年末在建工程：工业互联网",
+            "value": "0.50亿元",
+            "sourceIds": [
+              "fii25-investment"
+            ]
+          },
+          {
+            "label": "后续披露：2026年6月末云计算在建工程",
+            "value": "85.80亿元",
+            "sourceIds": [
+              "fii26-investment"
+            ]
+          }
+        ],
+        "note": "购建支出是期间现金流，在建工程是某一时点的账面余额，折旧又是另一口径。余额增长不能直接解释为当期投入金额或新增产能。",
+        "reader": {
+          "kind": "investment",
+          "answer": {
+            "text": "厂房与设备需要投入，形成可在以后继续使用的生产能力。",
+            "sourceIds": [
+              "fii25-investment"
+            ]
+          }
+        }
+      },
+      {
+        "title": "钱暂时留在材料和货款里",
+        "period": "2025年末",
+        "metric": "1,509.13亿元",
+        "metricLabel": "存货账面价值 · 已扣跌价准备",
+        "text": "原材料、半成品、成品和在途材料会占用资金；卖出产品但尚未收到的款项形成应收，向供应商尚未支付的款项形成应付。这些是期末资产或负债，不是费用。",
+        "sourceIds": [
+          "fii25-working-capital"
+        ],
+        "rows": [
+          {
+            "label": "存货账面余额（扣准备前）",
+            "value": "1,526.05亿元",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          },
+          {
+            "label": "减：存货跌价准备",
+            "value": "16.93亿元",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          },
+          {
+            "label": "存货账面价值（扣准备后）",
+            "value": "1,509.13亿元",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          },
+          {
+            "label": "应收账款账面价值",
+            "value": "1,107.42亿元",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          },
+          {
+            "label": "应付账款",
+            "value": "1,379.55亿元",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          }
+        ],
+        "note": "存货没有按业务板块拆分，不能全部归为AI服务器备货。期末余额也不能直接代替现金流量表里的存货、应收、应付调节额。",
+        "reader": {
+          "kind": "inventory",
+          "answer": {
+            "text": "材料、在制品和成品在售出前占用资金；这是一项期末资产。",
+            "sourceIds": [
+              "fii25-working-capital"
+            ]
+          }
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "title": "机柜交付，需要把多个环节整合起来",
+        "need": {
+          "text": "液冷不只有散热器，还涉及冷板、冷却回路和连接器之间的配合。OCP公开技术文件分别列出这些环节的要求，供行业设计与协作参考。",
+          "sourceIds": [
+            "industry-ocp-cooling"
+          ]
+        },
+        "company": {
+          "text": "公司披露已覆盖上述关键环节，并继续研发和整合液冷散热关键零组件。这里展示的是公司声明的业务能力与方向。",
+          "sourceIds": [
+            "fii26-business"
+          ]
+        },
+        "boundary": "这些披露没有给出逐项目验收、能耗、可靠性或同行对比，不能据此得出“技术领先”或“不可替代”的结论。 公开规范也不是本公司的认证证明。",
+        "reader": {
+          "answer": {
+            "text": "机柜要同时解决计算、供电和散热。公司披露已参与这些环节的研发与整合。",
+            "sourceIds": [
+              "fii26-business"
+            ]
+          },
+          "status": "公司披露"
+        }
+      },
+      {
+        "title": "网络设备，要跟着接口与产品迭代",
+        "need": {
+          "text": "高速网络需要适配不断演进的传输速率和接口。IEEE P802.3dj项目覆盖200G、400G、800G与1.6T以太网；这是行业技术背景，不是公司订单证据。",
+          "sourceIds": [
+            "industry-ieee-ethernet"
+          ]
+        },
+        "company": {
+          "text": "年报披露与客户开展研发及产品验证，中报披露CPO全光交换机样机交货。样机阶段与批量交付阶段需要分别理解。",
+          "sourceIds": [
+            "fii25-business",
+            "fii26-business"
+          ]
+        },
+        "boundary": "公司自述的行业排名未独立核实，不采用。产品验证不等于每批出厂测试，也不能据此填写统一认证周期。",
+        "reader": {
+          "answer": {
+            "text": "网络产品持续升级。公司披露与客户共同研发和验证新品，部分新产品仍在样机阶段。",
+            "sourceIds": [
+              "fii25-business",
+              "fii26-business"
+            ]
+          },
+          "status": "公司披露"
+        }
+      },
+      {
+        "title": "材料供应与客户订单，需要同时衔接",
+        "need": {
+          "text": "材料价格变化会影响这类硬件业务。公司风险章节说明，如果采购涨价不能及时向下游传递，成本和毛利会承压。",
+          "sourceIds": [
+            "fii25-risk"
+          ]
+        },
+        "company": {
+          "text": "2025年前五客户占销售额62.01%，前五供应商占采购额58.36%；直接材料占3C电子产品成本92.50%。这些数字说明相关业务与少数交易对手、材料投入的联系。",
+          "sourceIds": [
+            "fii25-concentration",
+            "fii25-costs"
+          ]
+        },
+        "boundary": "集中度不直接证明议价能力强弱。前五客户和供应商名称在年报中豁免披露，不用传闻补实名；销售集中度不能替换成应收余额集中度。",
+        "reader": {
+          "answer": {
+            "text": "2025年前五客户贡献62.01%的销售额，订单安排与材料供应需要衔接。",
+            "sourceIds": [
+              "fii25-concentration"
+            ]
+          },
+          "status": "公司披露"
+        }
+      }
+    ],
+    "cashBridge": {
+      "period": "2025年度 · 合并口径",
+      "intro": "归母净利润为352.86亿元；现金流补充资料从含少数股东的合并净利润353.29亿元开始，调节至经营现金流52.38亿元。下面的正负号表示对这一调节的贡献。",
+      "rows": [
+        {
+          "label": "合并净利润（含少数股东）",
+          "amount": 35329062000,
+          "sourceIds": [
+            "fii25-cash-bridge"
+          ]
+        },
+        {
+          "label": "折旧、减值及其他调节项净额",
+          "amount": 12811120000,
+          "sourceIds": [
+            "fii25-cash-bridge"
+          ]
+        },
+        {
+          "label": "存货调节",
+          "amount": -67058164000,
+          "sourceIds": [
+            "fii25-cash-bridge"
+          ]
+        },
+        {
+          "label": "经营性应收项目调节",
+          "amount": -32424702000,
+          "sourceIds": [
+            "fii25-cash-bridge"
+          ]
+        },
+        {
+          "label": "经营性应付项目调节",
+          "amount": 56580593000,
+          "sourceIds": [
+            "fii25-cash-bridge"
+          ]
+        }
+      ],
+      "result": {
+        "label": "经营活动现金流量净额",
+        "amount": 5237909000,
+        "sourceIds": [
+          "fii25-cash-bridge"
+        ]
+      },
+      "companyExplanation": {
+        "text": "公司将2025年经营现金流下降主要解释为客户需求增长带来的备货增加。",
+        "sourceIds": [
+          "fii25-financials"
+        ]
+      },
+      "reading": "报表复算：存货、经营性应收、经营性应付三项净调减429.02亿元。这说明利润转为现金时，还受到库存和结算的影响；经营现金流不只取决于利润规模。",
+      "boundary": "数据取自现金流量表补充资料，不是三个资产负债表科目的简单期末差额。“其他调节项”按原表其余项目净额合并；不能把429.02亿元全部称为AI服务器备货，也不能据此判断账上没有现金。",
+      "reader": {
+        "answer": {
+          "text": "公司有利润，但备货和结算也会占用资金。公司将2025年经营现金流下降主要归因于需求增长带来的备货增加。",
+          "sourceIds": [
+            "fii25-financials",
+            "fii25-cash-bridge"
+          ]
+        }
+      }
+    },
+    "reader": {
+      "intro": "先看两项主要生意，再沿着设计、制造和交付理解它。",
+      "tradeIntro": "主要通过销售产品取得收入，也提供加工服务。不同业务按各自合同交付和结算。",
+      "spendingNote": "制造成本、日常费用、长期投入和期末存货，是四种不同口径，不相加。",
+      "position": {
+        "text": "在产业链中，工业富联连接零组件供应商与企业设备客户，承担设计协作、制造和整合。",
+        "sourceIds": [
+          "fii25-business",
+          "fii25-customers"
+        ]
+      },
+      "positionStatus": "行业名次尚未独立核实"
+    }
+  },
+  "businessMap": {
+    "caption": "参与设计，把零组件做成可交付的设备",
+    "customers": [
+      {
+        "title": "云服务商与互联网企业",
+        "text": "建设数据中心，需要计算与存储设备"
+      },
+      {
+        "title": "设备与终端品牌商",
+        "text": "需要网络设备、终端结构零件等产品"
+      }
+    ],
+    "products": [
+      {
+        "title": "服务器与存储设备",
+        "text": "处理计算任务，保存业务数据"
+      },
+      {
+        "title": "网络设备与精密零件",
+        "text": "连接网络，构成设备和终端的硬件"
+      }
+    ]
+  },
+  "readingSummary": {
+    "period": "2025完整年度",
+    "headline": "收入和利润都在增长，经营现金流下降",
+    "note": "收入增长主要来自云计算业务。公司解释，客户需求增长带来备货增加，影响了经营现金流。",
+    "sourceIds": [
+      "fii25-financials",
+      "fii25-segments",
+      "fii25-cash-bridge"
+    ],
+    "metrics": [
+      {
+        "label": "全年收入",
+        "value": "9,028.87亿元",
+        "detail": "比上年增长48.22%"
+      },
+      {
+        "label": "归母净利润",
+        "value": "352.86亿元",
+        "detail": "盈利 · 比上年增长51.99%"
+      },
+      {
+        "label": "经营现金流净额",
+        "value": "52.38亿元",
+        "detail": "上年为238.20亿元"
+      }
+    ]
+  }
+}
