@@ -2,7 +2,7 @@
 
 欢迎从一个公司问题、一条公开出处或一处更正开始。内容贡献请说明公司代码、报告期、原文链接与页码，区分披露事实、公司表述和自己的理解；收入总额、分部金额与利润口径不要混用。
 
-[提交研究线索或更正](https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml)。
+[提交研究线索或更正](https://github.com/ThinkPair/jiangzao-xingtu-open-source/issues/new?template=research.yml)。
 
 也欢迎带着具体使用场景、问题复现或小范围代码改进参与。
 

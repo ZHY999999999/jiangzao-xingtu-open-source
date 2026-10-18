@@ -10,7 +10,7 @@
 <p align="center">
   <a href="docs/companies/README.md"><img src="docs/media/button-library.svg" alt="开始阅读知识库" height="36"></a>
   <a href="docs/industries/README.md"><img src="docs/media/button-industry.svg" alt="按行业探索" height="36"></a>
-  <a href="https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml"><img src="docs/media/button-research.svg" alt="提问与补充线索" height="36"></a>
+  <a href="https://github.com/ThinkPair/jiangzao-xingtu-open-source/issues/new?template=research.yml"><img src="docs/media/button-research.svg" alt="提问与补充线索" height="36"></a>
 </p>
 
 <p align="center"><sub>持续更新 · 公司生意笔记 · 行业阅读入口 · 公开资料出处 · 无需安装</sub></p>
@@ -68,9 +68,9 @@
 你正在看哪个行业？哪家公司的赚钱方式最难理解？带着具体问题，星图才知道下一处应该补哪里。
 
 - **想收藏阅读：** Star 本仓库，下次从[公司目录](docs/companies/README.md)继续。
-- **想补充线索或纠错：** [留下公司、问题和公开出处](https://github.com/ZHY999999999/jiangzao-xingtu-open-source/issues/new?template=research.yml)。
+- **想补充线索或纠错：** [留下公司、问题和公开出处](https://github.com/ThinkPair/jiangzao-xingtu-open-source/issues/new?template=research.yml)。
 - **想参与整理：** [阅读贡献说明](CONTRIBUTING.md)，从修正一条有出处的内容开始。
-- **想关注后续作品：** [关注作者的 GitHub](https://github.com/ZHY999999999)。
+- **想关注后续作品：** [关注作者的 GitHub](https://github.com/ThinkPair)。
 
 无需留下手机号、微信或其他私人信息。内容按实际整理进度持续补充，资料日期随篇保留。
 
